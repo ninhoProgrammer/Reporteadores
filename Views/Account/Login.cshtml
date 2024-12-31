@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Reporteadores.Models.Usuario
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="center-content">
+    <div class="container2">
+        <h2>Iniciar sesión</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+
+            <div>
+                <label for="UsCorto">Nombre de usuario:</label>
+                @Html.TextBoxFor(m => m.UsCorto)
+            </div>
+
+            <div>
+                <label for="UsPasswrd">Contraseña:</label>
+                @Html.PasswordFor(m => m.UsPasswrd)
+            </div>
+            <input type="submit" value="Entrar" />
+        }
+    </div>
+</div>
+
+
+
+    

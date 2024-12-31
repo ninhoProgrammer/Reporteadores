@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\viewreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:views\\home\\viewreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\reporteadores.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CFA84D0-A244-4111-937A-A29087DFE886}|Reporteadores.csproj|solutionrelative:reporteadores.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:08:25.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewReports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\ViewReports.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewReports.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\ViewReports.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewReports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T18:55:18.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:51:16.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T18:49:31.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:49:03.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T18:19:29.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reporteadores.csproj",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Reporteadores.csproj",
+              "RelativeDocumentMoniker": "Reporteadores.csproj",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Reporteadores.csproj",
+              "RelativeToolTip": "Reporteadores.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-24T18:18:21.131Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Reporte";
+    var listReporte = ViewBag.Reporte as List<Reporte>;
+}
+
+@{
+    var peAnio = ViewBag.PeAnio as List<int>;
+}
+
+<div class="title-content">
+    <h2>Selecciona tus opciones</h2>
+</div>
+
+<div class="combobox-container">
+    <section>
+        <h3>Año</h3>
+        <select id="peAnio">
+            <option value="">AÑO</option>
+            @foreach (var anio in @ViewBag.PeAnio)
+            {
+                <option value="@anio">@anio</option>
+            }
+        </select>
+    </section>
+    <section>
+        <h3>Tipo</h3>
+        <select id="peTipo" disabled>
+            <option value="">TIPO</option>
+        </select>
+    </section>
+    <section>
+        <h3>Número</h3>
+        <select id="teNumeroPeriodo" disabled>
+            <option value="">NUMERO</option>
+        </select>
+    </section>
+</div>
+   
+
+<div class="rounded-container">
+    <table id="rowSelect">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Ver</th>
+                <th>Descargar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reports in listReporte)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => reports.ReCodigo)</td>
+                    <td>@Html.DisplayFor(m => reports.ReNombre)</td>
+                    <td><button class="select-row">Ver</button></td>
+                    <td><button class="download-row"><img src="~/images/download-icon.png"  /></button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

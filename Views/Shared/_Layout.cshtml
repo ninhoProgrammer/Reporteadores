@@ -17,26 +17,6 @@
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 </head>
 
-@if (ViewData["UsuarioActivo"] == null)
-{
-    <style>
-        body {
-            margin: 0;
-            margin-bottom: 60px;
-            background: rgba(255, 255, 255, 1) url('/images/image.webp') center / cover no-repeat;
-        }
-    </style>
-}
-else
-{
-    <style>
-        body {
-            margin: 0;
-            margin-bottom: 60px;
-            background: #4eacd4;
-        }
-    </style>
-}
 
 <body>
     <header>
@@ -58,7 +38,7 @@ else
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Reporte">Reportes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Reporte">Reportes</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Nomina">Nomina</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">

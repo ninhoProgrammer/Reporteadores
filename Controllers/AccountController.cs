@@ -25,15 +25,18 @@ namespace Reporteadores.Controllers
 
         public IActionResult Login(Usuario model)
         {
+            string log = "";
+            ViewBag.ErrorMessage = null; // Inicializa el mensaje de error
             try
             {
                 var username = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesión
-
-                if (username == null)
+                
+                if (username == null && model.UsCorto != null && model.UsPasswrd != null)
                 {
-                    var usuario = db.Usuarios.Where(u => u.UsCorto == model.UsCorto)
-                                            .Select(u => new { u.UsCorto, u.UsPasswrd })  // Solo selecciona 'UsCorto'
-                                            .FirstOrDefault();
+                    var usuario = db.Usuarios
+                        .Where(u => u.UsCorto == model.UsCorto)
+                        .Select(u => new { u.UsCorto, u.UsPasswrd }) // Solo selecciona 'UsCorto' y 'UsPasswrd'
+                        .FirstOrDefault();
 
                     if (usuario != null && usuario.UsPasswrd == model.UsPasswrd)
                     {
@@ -42,19 +45,24 @@ namespace Reporteadores.Controllers
                         _userManager.UpdateAsync(model);
                         _signInManager.RefreshSignInAsync(model);
 
-                        // Autenticación exitosa, redirigir al usuario a la página principal o a otra página deseada
-                        
+                        // Autenticación exitosa, redirigir al usuario a la página principal
                         return RedirectToAction("Index", "Home");
                     }
-
+                    else
+                    {
+                        // Si las credenciales no son correctas, establece el mensaje de error
+                        log = "Nombre de usuario o contraseña incorrectos.";
+                    }
                 }
-
+               
             }
             catch
             {
-                return View();
+                log = "Ocurrió un error inesperado. Inténtelo de nuevo.";
             }
-            return View();
+            ViewBag.ErrorMessage = log;
+            // Si hay un fallo, devuelve la vista con el mensaje de error
+            return View(model);
         }
     }
 }

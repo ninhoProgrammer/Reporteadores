@@ -45,12 +45,18 @@ namespace Reporteadores.Controllers
             }
         }
 
+        public IActionResult Nomina()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             string pdfUrl = "http://189.203.75.86/Kioscos/SitioRecibos/Aviso.pdf";
             return Redirect(pdfUrl); // Redirige al navegador para que abra el PDF
         }
 
+        [HttpGet]
         public IActionResult ViewReports(string publicPath)
         {
             var username = HttpContext.Session.GetString("Username");
@@ -72,7 +78,7 @@ namespace Reporteadores.Controllers
                 var usuario = _BContext.Reportes.Select(u => new { u.ReNombre });
 
                 // Llenar el primer ComboBox con los a�os �nicos
-                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderBy(p => p);
+                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
                 ViewBag.PeAnio = periodos;
                 var reportes = _BContext.Reportes.ToList();
                 ViewBag.Reporte = reportes;
@@ -91,6 +97,7 @@ namespace Reporteadores.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "Account");            
         }
+
         public IActionResult ErrorPage()
         {
             return View();
@@ -222,48 +229,56 @@ namespace Reporteadores.Controllers
 
                 using (var process = Process.Start(psi))
                 {
-                    string output = await process.StandardOutput.ReadToEndAsync();
-                    string error = await process.StandardError.ReadToEndAsync();
-                    await process.WaitForExitAsync();
-
-                    if (process.ExitCode == 0)
+                    if (process != null)
                     {
-                        string filePath = output.Trim();
-
-                        if (System.IO.File.Exists(filePath))
+                        string output = await process.StandardOutput.ReadToEndAsync();
+                        string error = await process.StandardError.ReadToEndAsync();
+                        await process.WaitForExitAsync();
+                        if (process.ExitCode == 0)
                         {
-                            var fileName = Path.GetFileName(filePath);
-                            var publicPath = $"/Temp/{fileName}";
-                            var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
-
-                            if (!Directory.Exists(publicDirectory))
-                                Directory.CreateDirectory(publicDirectory);
+                            string filePath = output.Trim();
 
                             if (System.IO.File.Exists(filePath))
-                            {                                
-                                if (download)
-                                {
-                                    var destinationPath = Path.Combine(publicDirectory, fileName);
-                                    System.IO.File.Copy(filePath, destinationPath, true);
-                                    var fileBytes = await System.IO.File.ReadAllBytesAsync(destinationPath);
-                                    return File(fileBytes, "application/pdf");
+                            {
+                                var fileName = Path.GetFileName(filePath);
+                                var publicPath = $"/Temp/{fileName}";
+                                var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
+
+                                if (!Directory.Exists(publicDirectory))
+                                    Directory.CreateDirectory(publicDirectory);
+
+                                if (System.IO.File.Exists(filePath))
+                                {                                
+                                    if (download)
+                                    {
+                                        var destinationPath = Path.Combine(publicDirectory, fileName);
+                                        System.IO.File.Copy(filePath, destinationPath, true);
+                                        var fileBytes = await System.IO.File.ReadAllBytesAsync(destinationPath);
+                                        return File(fileBytes, "application/pdf");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"Ruta p�blica in json: {publicPath}");
+                                        return Json(new { publicPath });
+                                    }
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"Ruta p�blica in json: {publicPath}");
-                                    return Json(new { publicPath });
+                                    return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
                                 }
                             }
-                            else
-                            {
-                                return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
-                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Error: {error}");
                         }
                     }
                     else
                     {
-                        Console.WriteLine($"Error: {error}");
+                        throw new InvalidOperationException("Failed to start the process.");
                     }
+
+                    
                 }
             }
             catch (Exception ex)

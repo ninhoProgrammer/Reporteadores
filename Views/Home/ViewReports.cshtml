@@ -5,7 +5,7 @@
 }
 
 <div class="title-content">
-    <h1>Visualizar PDF</h1>
+    <h2>Visualizar PDF</h2>
 </div>
 
 @if (publicPath == null)
@@ -14,5 +14,8 @@
 }
 else
 {
-    <iframe src="@publicPath" width="100%" height="600px" frameborder="0"></iframe>
+    <div class="rounded-container">
+        <iframe src="@publicPath" width="100%" height="600px" frameborder="0"></iframe>
+    </div>
 }
+#document (http://localhost:5072/Temp/ScreenshotsReporte.pdf)

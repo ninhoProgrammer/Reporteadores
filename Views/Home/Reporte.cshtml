@@ -1,9 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Reporte";
     var listReporte = ViewBag.Reporte as List<Reporte>;
-}
-
-@{
     var peAnio = ViewBag.PeAnio as List<int>;
 }
 
@@ -47,15 +44,18 @@
                 <th>Descargar</th>
             </tr>
         </thead>
-        <tbody>
-            @foreach (var reports in listReporte)
+            @if (listReporte != null)
             {
+                foreach (var reports in listReporte)
+                {
+           
                 <tr>
                     <td>@Html.DisplayFor(m => reports.ReCodigo)</td>
                     <td>@Html.DisplayFor(m => reports.ReNombre)</td>
                     <td><button class="select-row">Ver</button></td>
                     <td><button class="download-row"><img src="~/images/download-icon.png"  /></button></td>
                 </tr>
+                }
             }
         </tbody>
     </table>

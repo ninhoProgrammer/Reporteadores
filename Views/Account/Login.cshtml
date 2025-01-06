@@ -11,13 +11,13 @@
 }
 
 <div class="center-content">
+    <div class="title-content">
+        <h2><strong>INICIAR SESIÓN</strong></h2>
+    </div>
     <div class="container2">
-        <h2>Iniciar sesión</h2>
-
         @using (Html.BeginForm())
         {
             @Html.ValidationSummary(true)
-
             <div>
                 <label for="UsCorto">Nombre de usuario:</label>
                 @Html.TextBoxFor(m => m.UsCorto)
@@ -27,11 +27,15 @@
                 <label for="UsPasswrd">Contraseña:</label>
                 @Html.PasswordFor(m => m.UsPasswrd)
             </div>
-            <input type="submit" value="Entrar" />
+            
+            <input id="Entrar" type="submit" value="Entrar" />
+            
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage as string))
+            {
+                <div class="error-message">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
         }
     </div>
 </div>
-
-
-
-    

@@ -1,10 +1,10 @@
 :root {
   --font-base: 'Pontano Sans', sans-serif;
-  --color-primary: #0062cc;
-  --color-secondary: #4eacd4;
+  --color-primary: #437cb1;
+  --color-secondary: #008cb5;
   --color-dark: #000000;
   --color-light: #ffffff;
-  --color-gray: #f9f9f9;
+  --color-gray: #5f5f5f;
   --color-green: #4CAF50;
   --border-radius: 8px;
   --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -19,9 +19,16 @@ html {
   min-height: 100%;
 }
 
+body {
+  height: 100vh;
+  margin: 0;
+  margin-bottom: 60px;
+  background: var(--color-primary) url('/images/image.webp') center / cover no-repeat;
+}
+
 /* Botones */
 .btn {
-  padding: var(--padding-base) 20px;
+  padding: var(--padding-base) 60px; 
   font-size: 1em;
   cursor: pointer;
   border: none;
@@ -37,6 +44,16 @@ html {
 .btn-primary {
   background-color: var(--color-green);
   border-color: var(--color-light);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-container .btn {
+  width: 100px;
 }
 
 /* Títulos */
@@ -138,31 +155,37 @@ footer a:hover {
 /* Formularios */
 .container2 {
   max-width: 400px;
-  margin: 40px auto;
   background-color: var(--color-gray);
   border: 1px solid #ddd;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-light);
-  padding: 20px;
+  padding: 30px;
 }
 
-.container2 h2, h1 {
+.container2 h3, h2, h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: var(--color-light);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .container2 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #555;
+  color: var(--color-light);
+}
+
+.error-message {
+  font-size: 10PX;
+  color: red;
+  font-weight: bold;
 }
 
 .container2 input[type="text"],
 .container2 input[type="password"] {
   width: 100%;
-  padding: var(--padding-base);
+  padding: 5px 30px; 
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: var(--border-radius);
@@ -173,7 +196,7 @@ footer a:hover {
 .container2 input[type="submit"] {
   margin-top: 10px;
   width: 100%;
-  padding: var(--padding-base);
+  padding: 5px 30px; 
   background-color: var(--color-green);
   color: var(--color-light);
   border: none;
@@ -210,7 +233,7 @@ footer a:hover {
 .combobox-container select {
   margin-bottom: 10px;
   font-size: 14px;
-  padding: var(--padding-base);
+  padding: 5px 30px;
   width: 200px;
   border: 1px solid #ccc;
   background-color: var(--color-light);
@@ -271,7 +294,30 @@ th {
     font-size: 18px; /* Aumenta el tamaño de fuente */
   }
 
-  
+  h1 {
+    font-size: 80px; /* Encabezados más grandes */
+    margin-bottom: 30px; /* Ajusta el espaciado */
+  }
+
+  h2 {
+    font-size: 30px; /* Encabezados más grandes */
+    margin-bottom: 20px; /* Ajusta el espaciado */
+  }
+
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .navbar {
+    height: 100px; /* Incrementa la altura */
+    font-size: 1.5rem; /* Incrementa el tamaño del texto */
+  }
+
+  #logo img {
+    width: 250px; /* Incrementa el tamaño del logo */
+  }
 
   .container2 {
     max-width: 800px; /* Ancho fijo */
@@ -288,7 +334,7 @@ th {
 }
 
 /* Responsivo: Pantallas pequeñas */
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   html {
     font-size: 14px;
   }
@@ -299,7 +345,7 @@ th {
   }
   
   h2 {
-    font-size: 20px; /* Reduce el tamaño del texto */
+    font-size: 10px; /* Reduce el tamaño del texto */
     margin-bottom: 10px; /* Ajusta el espaciado */
   }
 
@@ -308,8 +354,33 @@ th {
     text-align: center;
   }
 
+  #logo img {
+    width: 100px; /* Incrementa el tamaño del logo */
+  }
+
+  .center-content {
+    margin: 40px;
+    display: block;
+    justify-content: none;
+    align-items: none;
+    height: auto; /* Ajusta la altura */
+  }
+
+  .center-content h1 {
+    font-size: 3em;
+  }
+
   .center-content h2 {
-    font-size: 2em;
+    font-size: 1em;
+  }
+
+  .container2 label {
+    font-size: 1em;
+  }
+
+  .container2 {
+    max-width: 100%;
+    padding: 15px;
   }
 
   .container2 h2 {
@@ -321,7 +392,26 @@ th {
     font-size: 1em;
   }
 
-  table {
+  .container2 input[type="text"],
+  .container2 input[type="password"] {
+    padding: 5px 15px; 
+  }
+
+  .container2 input[type="submit"] {
+    padding: 5px 15px; 
+  }
+
+  th,
+  td {
+    padding: 5px;
     font-size: 12px;
   }
+
+  table {
+    width: 100%;
+    overflow-x: auto;
+    font-size: 10px;
+  }
+  
+    
 }

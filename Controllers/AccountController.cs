@@ -54,7 +54,6 @@ namespace Reporteadores.Controllers
                         log = "Nombre de usuario o contraseña incorrectos.";
                     }
                 }
-               
             }
             catch
             {

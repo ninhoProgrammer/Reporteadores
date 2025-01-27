@@ -47,7 +47,19 @@ namespace Reporteadores.Controllers
 
         public IActionResult Nomina()
         {
-            return View();
+            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
+
+            if (usernameSesion != null)
+            {
+                // El usuario est� autenticado, realiza la l�gica deseada
+                ViewData["UsuarioActivo"] = usernameSesion;
+                return View();
+            }
+            else
+            {
+                // El usuario no est� autenticado, redirigir a la p�gina de inicio de sesi�n
+                return RedirectToAction("Index", "Account");
+            }
         }
 
         public IActionResult Privacy()

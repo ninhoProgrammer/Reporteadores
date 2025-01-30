@@ -182,6 +182,7 @@ namespace Reporteadores.Controllers
         }
 
         // M�todo para obtener los reportes seg�n el tipo seleccionado (PeTipo)
+        [HttpPost]
         private async Task<IActionResult> GenerateReportAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo, bool download)
         {
             var username = HttpContext.Session.GetString("Username");
@@ -255,7 +256,7 @@ namespace Reporteadores.Controllers
                                 var fileName = Path.GetFileName(filePath);
                                 var publicPath = $"/Temp/{fileName}";
                                 var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
-
+                                Console.WriteLine($"Directorio p�blico: {rutaReporte}");
                                 if (!Directory.Exists(publicDirectory))
                                     Directory.CreateDirectory(publicDirectory);
 

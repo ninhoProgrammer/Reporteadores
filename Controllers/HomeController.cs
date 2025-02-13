@@ -219,7 +219,7 @@ namespace Reporteadores.Controllers
                     { "TIPO", peTipo }
                 };
 
-                string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\reportsEjecute.exe";
+                string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\repotsEjecute.exe";
                 string[] parameters = 
                 {
                     rutaReporte, 
@@ -230,7 +230,8 @@ namespace Reporteadores.Controllers
                     peNumero, 
                     "0", 
                     "true",
-                    rootPath
+                    rootPath,
+                    "BARRON",
                 };
 
                 var psi = new ProcessStartInfo

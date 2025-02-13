@@ -14,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ComparteContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddDbContext<BarronContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BarronConnetion")));
+
 // Configuraci�n de Identity
 builder.Services.AddIdentity<Usuario, IdentityRole>()
     .AddEntityFrameworkStores<ComparteContext>()

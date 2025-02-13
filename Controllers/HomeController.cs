@@ -182,16 +182,16 @@ namespace Reporteadores.Controllers
         }
 
         // M�todo para obtener los reportes seg�n el tipo seleccionado (PeTipo)
-        [HttpPost]
+        [HttpGet]
         private async Task<IActionResult> GenerateReportAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo, bool download)
         {
             var username = HttpContext.Session.GetString("Username");
             ViewData["UsuarioActivo"] = username;
 
             var rutaReporte = await _BContext.Reportes
-                .Where(u => u.ReNombre == ReNombre && u.ReCodigo == short.Parse(ReCodigo))
-                .Select(u => u.ReArchivo)
-                .FirstOrDefaultAsync();
+            .Where(u => u.ReNombre == ReNombre && u.ReCodigo == short.Parse(ReCodigo))
+            .Select(u => u.ReArchivo)
+            .FirstOrDefaultAsync();
 
             if (rutaReporte == null)
             {
@@ -207,6 +207,8 @@ namespace Reporteadores.Controllers
 
             try
             {
+                var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "Temp", "ScreenshotsReporte.pdf");
+                Console.WriteLine($"Root Path: {rootPath}");
                 var parametros = new Dictionary<string, string>
                 {
                     { "EMPRESA", "BARRON" },
@@ -217,7 +219,7 @@ namespace Reporteadores.Controllers
                     { "TIPO", peTipo }
                 };
 
-                string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\repotsEjecute.exe";
+                string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\reportsEjecute.exe";
                 string[] parameters = 
                 {
                     rutaReporte, 
@@ -227,7 +229,8 @@ namespace Reporteadores.Controllers
                     peAnio, 
                     peNumero, 
                     "0", 
-                    "true"
+                    "true",
+                    rootPath
                 };
 
                 var psi = new ProcessStartInfo
@@ -244,54 +247,57 @@ namespace Reporteadores.Controllers
                 {
                     if (process != null)
                     {
-                        string output = await process.StandardOutput.ReadToEndAsync();
-                        string error = await process.StandardError.ReadToEndAsync();
-                        await process.WaitForExitAsync();
-                        if (process.ExitCode == 0)
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
+                    await process.WaitForExitAsync();
+                    if (process.ExitCode == 0)
+                    {
+                        string filePath = output.Trim();
+
+                        if (System.IO.File.Exists(filePath))
                         {
-                            string filePath = output.Trim();
+                            var fileName = Path.GetFileName(filePath);
+                            var publicPath = $"/Temp/{fileName}";
+                            var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
+                            Console.WriteLine($"Directorio público: {rutaReporte} -> {publicDirectory} -> {publicPath}");
+                            var destinationPath = Path.Combine(publicDirectory, fileName);
+                            if (!Directory.Exists(publicDirectory))
+                                Directory.CreateDirectory(publicDirectory);
 
                             if (System.IO.File.Exists(filePath))
                             {
-                                var fileName = Path.GetFileName(filePath);
-                                var publicPath = $"/Temp/{fileName}";
-                                var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
-                                Console.WriteLine($"Directorio p�blico: {rutaReporte}");
-                                if (!Directory.Exists(publicDirectory))
-                                    Directory.CreateDirectory(publicDirectory);
-
-                                if (System.IO.File.Exists(filePath))
-                                {                                
-                                    if (download)
+                                if (download)
+                                {
+                                    using (var sourceStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                                    using (var destinationStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
                                     {
-                                        var destinationPath = Path.Combine(publicDirectory, fileName);
-                                        System.IO.File.Copy(filePath, destinationPath, true);
-                                        var fileBytes = await System.IO.File.ReadAllBytesAsync(destinationPath);
-                                        return File(fileBytes, "application/pdf");
+                                        await sourceStream.CopyToAsync(destinationStream);
                                     }
-                                    else
-                                    {
-                                        Console.WriteLine($"Ruta p�blica in json: {publicPath}");
-                                        return Json(new { publicPath });
-                                    }
+                                    var fileBytes = await System.IO.File.ReadAllBytesAsync(destinationPath);
+                                    Console.WriteLine($"Directorio público: {destinationPath}");
+                                    return File(fileBytes, "application/pdf");
                                 }
                                 else
                                 {
-                                    return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
+                                    Console.WriteLine($"Ruta pública in json: {publicPath}");
+                                    return Json(new { publicPath });
                                 }
                             }
+                            else
+                            {
+                                return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
+                            }
                         }
-                        else
-                        {
-                            Console.WriteLine($"Error: {error}");
-                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {error}");
+                    }
                     }
                     else
                     {
                         throw new InvalidOperationException("Failed to start the process.");
                     }
-
-                    
                 }
             }
             catch (Exception ex)
@@ -308,7 +314,6 @@ namespace Reporteadores.Controllers
         {   
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false);
         }
-
         [HttpGet]
         public Task<IActionResult> DownloadReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {

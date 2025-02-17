@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Reporteadores.u912apvygw.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
+      "PackagePath": "staticwebassets\\Temp\\ScreenshotsReporte.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
+      "PackagePath": "staticwebassets\\Temp\\resultado.txt"
+    },
+    {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\site - copia.css",
       "PackagePath": "staticwebassets\\css\\site - copia.css"
     },
@@ -17,44 +25,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.png",
-      "PackagePath": "staticwebassets\\images\\download-icon.png"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.jpg",
-      "PackagePath": "staticwebassets\\images\\image.jpg"
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.webp",
+      "PackagePath": "staticwebassets\\images\\download-icon.webp"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.webp",
       "PackagePath": "staticwebassets\\images\\image.webp"
     },
     {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image1.jpg",
-      "PackagePath": "staticwebassets\\images\\image1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image2.jpg",
-      "PackagePath": "staticwebassets\\images\\image2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image3.jpg",
-      "PackagePath": "staticwebassets\\images\\image3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image4.jpg",
-      "PackagePath": "staticwebassets\\images\\image4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.webp",
+      "PackagePath": "staticwebassets\\images\\logo.webp"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\pexels-photo-11505604.webp",
       "PackagePath": "staticwebassets\\images\\pexels-photo-11505604.webp"
-    },
-    {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\woman-with-headset.png",
-      "PackagePath": "staticwebassets\\images\\woman-with-headset.png"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\js\\site.js",

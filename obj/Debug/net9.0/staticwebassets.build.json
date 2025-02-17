@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WDE7zjTym9wNAbVrz/84Xn07uD16exlNdqTKJ3gJrmY=",
+  "Hash": "eOgXDZbMMVO8312PY6StvZQx0KpO3w5+gDk5PPV9fLs=",
   "Source": "Reporteadores",
   "BasePath": "_content/Reporteadores",
   "Mode": "Default",
@@ -183,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6jmlotpkt1-ma55ea9lzb.gz",
+      "SourceId": "Reporteadores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Reporteadores",
+      "RelativePath": "Temp/resultado#[.{fingerprint=ma55ea9lzb}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "h32fimzv7x",
+      "Integrity": "XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt"
     },
     {
       "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6rv1j0ra12-y53cy5s2zj.gz",
@@ -1424,12 +1445,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.png",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.webp",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/download-icon#[.{fingerprint}]?.png",
+      "RelativePath": "images/download-icon#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1438,32 +1459,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hdzi74pk3f",
-      "Integrity": "a/XP3YhcH0bJyHZWkjK4Y0FdSzBD9gwK2j72EoBECbo=",
+      "Fingerprint": "cvm2ynskgv",
+      "Integrity": "uEHzl6yPo6aU7PHJwZoIAS7Dx/qmCQ+B1SB9H7IJEQs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\download-icon.png"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.jpg",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/image#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f7yucxkph0",
-      "Integrity": "qzi7Q9AfmpZuLRLuN7ymC8LPKtkwquUAIvVEoMxNfiA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\download-icon.webp"
     },
     {
       "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.webp",
@@ -1487,12 +1487,12 @@
       "OriginalItemSpec": "wwwroot\\images\\image.webp"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image1.jpg",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.webp",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/image1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/logo#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1501,95 +1501,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7v9p59nj6v",
-      "Integrity": "MxcNAabnE4Aj6UUhRLT61KjdH3zdXTBNUnwURuIPG44=",
+      "Fingerprint": "nhosy9nhqz",
+      "Integrity": "Bb+xq+hbwfO4QeeeWHnul13Ya01Fm4GalZVfz4dTtDs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image2.jpg",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/image2#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ibmzxv4w7",
-      "Integrity": "vfo3BM2hcxQsSLKssfyef73ciKhynvDrSET2pPV9MQY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image3.jpg",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/image3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "po4x1rgjyx",
-      "Integrity": "+ULGIl8lk1oPMNxCt+OHDAzs5aU+Kn9S4sDOmVNrrfA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image4.jpg",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/image4#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fu5of9blsc",
-      "Integrity": "l1bOnexIMKttCAuHnP1Fepvd/FL5DT1dVadgeAJciXw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.png",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/logo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5uotlnss0a",
-      "Integrity": "AyxvRmZ4MqTWTksqAZBGyZKJhiwVjghYYEr+INtbP8I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logo.webp"
     },
     {
       "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\pexels-photo-11505604.webp",
@@ -1611,27 +1527,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pexels-photo-11505604.webp"
-    },
-    {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\woman-with-headset.png",
-      "SourceId": "Reporteadores",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
-      "BasePath": "_content/Reporteadores",
-      "RelativePath": "images/woman-with-headset#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "l30ph0jjvt",
-      "Integrity": "wW0ll3kp1Yojg12OerSw0FxJf3R+MiSI/wATylOEInY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\woman-with-headset.png"
     },
     {
       "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\js\\site.js",
@@ -2850,6 +2745,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
+      "SourceId": "Reporteadores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
+      "BasePath": "_content/Reporteadores",
+      "RelativePath": "Temp/resultado#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ma55ea9lzb",
+      "Integrity": "DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Temp\\resultado.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
+      "SourceId": "Reporteadores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\",
+      "BasePath": "_content/Reporteadores",
+      "RelativePath": "Temp/ScreenshotsReporte#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kykwc3x4ov",
+      "Integrity": "5EV3IP2oymyzHjYOiqD+GpXgtSjUHlN7Uxm/FDEvnnY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Temp\\ScreenshotsReporte.pdf"
     }
   ],
   "Endpoints": [
@@ -3748,8 +3685,8 @@
       ]
     },
     {
-      "Route": "images/download-icon.hdzi74pk3f.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.png",
+      "Route": "images/download-icon.cvm2ynskgv.webp",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,19 +3695,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "176"
+          "Value": "132"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"a/XP3YhcH0bJyHZWkjK4Y0FdSzBD9gwK2j72EoBECbo=\""
+          "Value": "\"uEHzl6yPo6aU7PHJwZoIAS7Dx/qmCQ+B1SB9H7IJEQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 21:20:50 GMT"
+          "Value": "Fri, 14 Feb 2025 19:09:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3780,21 +3717,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hdzi74pk3f"
+          "Value": "cvm2ynskgv"
         },
         {
           "Name": "label",
-          "Value": "images/download-icon.png"
+          "Value": "images/download-icon.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a/XP3YhcH0bJyHZWkjK4Y0FdSzBD9gwK2j72EoBECbo="
+          "Value": "sha256-uEHzl6yPo6aU7PHJwZoIAS7Dx/qmCQ+B1SB9H7IJEQs="
         }
       ]
     },
     {
-      "Route": "images/download-icon.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.png",
+      "Route": "images/download-icon.webp",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3803,19 +3740,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "176"
+          "Value": "132"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"a/XP3YhcH0bJyHZWkjK4Y0FdSzBD9gwK2j72EoBECbo=\""
+          "Value": "\"uEHzl6yPo6aU7PHJwZoIAS7Dx/qmCQ+B1SB9H7IJEQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 21:20:50 GMT"
+          "Value": "Fri, 14 Feb 2025 19:09:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3825,89 +3762,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a/XP3YhcH0bJyHZWkjK4Y0FdSzBD9gwK2j72EoBECbo="
-        }
-      ]
-    },
-    {
-      "Route": "images/image.f7yucxkph0.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3062045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qzi7Q9AfmpZuLRLuN7ymC8LPKtkwquUAIvVEoMxNfiA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 01:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f7yucxkph0"
-        },
-        {
-          "Name": "label",
-          "Value": "images/image.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qzi7Q9AfmpZuLRLuN7ymC8LPKtkwquUAIvVEoMxNfiA="
-        }
-      ]
-    },
-    {
-      "Route": "images/image.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3062045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qzi7Q9AfmpZuLRLuN7ymC8LPKtkwquUAIvVEoMxNfiA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 01:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qzi7Q9AfmpZuLRLuN7ymC8LPKtkwquUAIvVEoMxNfiA="
+          "Value": "sha256-uEHzl6yPo6aU7PHJwZoIAS7Dx/qmCQ+B1SB9H7IJEQs="
         }
       ]
     },
@@ -3994,8 +3849,8 @@
       ]
     },
     {
-      "Route": "images/image1.7v9p59nj6v.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image1.jpg",
+      "Route": "images/logo.nhosy9nhqz.webp",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4004,19 +3859,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354273"
+          "Value": "45090"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"MxcNAabnE4Aj6UUhRLT61KjdH3zdXTBNUnwURuIPG44=\""
+          "Value": "\"Bb+xq+hbwfO4QeeeWHnul13Ya01Fm4GalZVfz4dTtDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:46:30 GMT"
+          "Value": "Fri, 14 Feb 2025 19:06:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4026,21 +3881,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7v9p59nj6v"
+          "Value": "nhosy9nhqz"
         },
         {
           "Name": "label",
-          "Value": "images/image1.jpg"
+          "Value": "images/logo.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MxcNAabnE4Aj6UUhRLT61KjdH3zdXTBNUnwURuIPG44="
+          "Value": "sha256-Bb+xq+hbwfO4QeeeWHnul13Ya01Fm4GalZVfz4dTtDs="
         }
       ]
     },
     {
-      "Route": "images/image1.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image1.jpg",
+      "Route": "images/logo.webp",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4049,19 +3904,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "354273"
+          "Value": "45090"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"MxcNAabnE4Aj6UUhRLT61KjdH3zdXTBNUnwURuIPG44=\""
+          "Value": "\"Bb+xq+hbwfO4QeeeWHnul13Ya01Fm4GalZVfz4dTtDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:46:30 GMT"
+          "Value": "Fri, 14 Feb 2025 19:06:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4071,335 +3926,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MxcNAabnE4Aj6UUhRLT61KjdH3zdXTBNUnwURuIPG44="
-        }
-      ]
-    },
-    {
-      "Route": "images/image2.5ibmzxv4w7.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "383361"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vfo3BM2hcxQsSLKssfyef73ciKhynvDrSET2pPV9MQY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ibmzxv4w7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/image2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vfo3BM2hcxQsSLKssfyef73ciKhynvDrSET2pPV9MQY="
-        }
-      ]
-    },
-    {
-      "Route": "images/image2.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "383361"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vfo3BM2hcxQsSLKssfyef73ciKhynvDrSET2pPV9MQY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vfo3BM2hcxQsSLKssfyef73ciKhynvDrSET2pPV9MQY="
-        }
-      ]
-    },
-    {
-      "Route": "images/image3.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24509"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+ULGIl8lk1oPMNxCt+OHDAzs5aU+Kn9S4sDOmVNrrfA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+ULGIl8lk1oPMNxCt+OHDAzs5aU+Kn9S4sDOmVNrrfA="
-        }
-      ]
-    },
-    {
-      "Route": "images/image3.po4x1rgjyx.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24509"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+ULGIl8lk1oPMNxCt+OHDAzs5aU+Kn9S4sDOmVNrrfA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "po4x1rgjyx"
-        },
-        {
-          "Name": "label",
-          "Value": "images/image3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+ULGIl8lk1oPMNxCt+OHDAzs5aU+Kn9S4sDOmVNrrfA="
-        }
-      ]
-    },
-    {
-      "Route": "images/image4.fu5of9blsc.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "310642"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l1bOnexIMKttCAuHnP1Fepvd/FL5DT1dVadgeAJciXw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fu5of9blsc"
-        },
-        {
-          "Name": "label",
-          "Value": "images/image4.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-l1bOnexIMKttCAuHnP1Fepvd/FL5DT1dVadgeAJciXw="
-        }
-      ]
-    },
-    {
-      "Route": "images/image4.jpg",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "310642"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l1bOnexIMKttCAuHnP1Fepvd/FL5DT1dVadgeAJciXw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 19:47:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-l1bOnexIMKttCAuHnP1Fepvd/FL5DT1dVadgeAJciXw="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo.5uotlnss0a.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "144482"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AyxvRmZ4MqTWTksqAZBGyZKJhiwVjghYYEr+INtbP8I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 15:19:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5uotlnss0a"
-        },
-        {
-          "Name": "label",
-          "Value": "images/logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AyxvRmZ4MqTWTksqAZBGyZKJhiwVjghYYEr+INtbP8I="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "144482"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AyxvRmZ4MqTWTksqAZBGyZKJhiwVjghYYEr+INtbP8I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 15:19:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AyxvRmZ4MqTWTksqAZBGyZKJhiwVjghYYEr+INtbP8I="
+          "Value": "sha256-Bb+xq+hbwfO4QeeeWHnul13Ya01Fm4GalZVfz4dTtDs="
         }
       ]
     },
@@ -4482,88 +4009,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-OaXh5zQta+2yKzEeWJXnlbv4pbLkhicm284+H8JxUUE="
-        }
-      ]
-    },
-    {
-      "Route": "images/woman-with-headset.l30ph0jjvt.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\woman-with-headset.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3957"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wW0ll3kp1Yojg12OerSw0FxJf3R+MiSI/wATylOEInY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 16:33:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l30ph0jjvt"
-        },
-        {
-          "Name": "label",
-          "Value": "images/woman-with-headset.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wW0ll3kp1Yojg12OerSw0FxJf3R+MiSI/wATylOEInY="
-        }
-      ]
-    },
-    {
-      "Route": "images/woman-with-headset.png",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\woman-with-headset.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3957"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wW0ll3kp1Yojg12OerSw0FxJf3R+MiSI/wATylOEInY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 16:33:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wW0ll3kp1Yojg12OerSw0FxJf3R+MiSI/wATylOEInY="
         }
       ]
     },
@@ -22228,6 +21673,386 @@
         {
           "Name": "integrity",
           "Value": "sha256-ijla3Ue/bq8CTEqWiNTwbEQqDv5vel/l16g1YXYvVRw="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.ma55ea9lzb.txt",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6jmlotpkt1-ma55ea9lzb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008064516129"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma55ea9lzb"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/resultado.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.ma55ea9lzb.txt",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma55ea9lzb"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/resultado.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.ma55ea9lzb.txt.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6jmlotpkt1-ma55ea9lzb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma55ea9lzb"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/resultado.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.txt",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6jmlotpkt1-ma55ea9lzb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008064516129"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.txt",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DrAGMz0nltIpaBEMgnCrMPUMu0uDmDAYH8BGGsNx6Is="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/resultado.txt.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\6jmlotpkt1-ma55ea9lzb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XRIW+TYzGxZdqe640k+Jlhck3TIPu9KK5jcPCpwOLoY="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/ScreenshotsReporte.kykwc3x4ov.pdf",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EV3IP2oymyzHjYOiqD+GpXgtSjUHlN7Uxm/FDEvnnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 20:06:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kykwc3x4ov"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/ScreenshotsReporte.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EV3IP2oymyzHjYOiqD+GpXgtSjUHlN7Uxm/FDEvnnY="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/ScreenshotsReporte.pdf",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5EV3IP2oymyzHjYOiqD+GpXgtSjUHlN7Uxm/FDEvnnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 20:06:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5EV3IP2oymyzHjYOiqD+GpXgtSjUHlN7Uxm/FDEvnnY="
         }
       ]
     }

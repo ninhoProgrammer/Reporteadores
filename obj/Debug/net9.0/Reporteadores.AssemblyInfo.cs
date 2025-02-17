@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reporteadores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7014ca46064c088ba0c666a86c287b6c2383d2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52bb0b35028c6b59b7dcc7a86c8bd9b6e8796ad2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reporteadores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reporteadores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

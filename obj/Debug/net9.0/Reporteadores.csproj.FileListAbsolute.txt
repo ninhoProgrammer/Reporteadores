@@ -347,3 +347,4 @@ C:\Users\mario\Documents\GitHub\Reporteadores\bin\Debug\net9.0\runtimes\win\lib\
 C:\Users\mario\Documents\GitHub\Reporteadores\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mario\Documents\GitHub\Reporteadores\bin\Debug\net9.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\1620syf7ze-dqjhdoihy2.gz
+C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\6jmlotpkt1-ma55ea9lzb.gz

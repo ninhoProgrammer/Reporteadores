@@ -19,9 +19,7 @@ namespace Reporteadores.Controllers
 
         private readonly ILogger<HomeController> _logger;
 
-
         //public HomeController(ComparteContext Ccontext, BarronContext BContext, ILogger<HomeController> logger) { 
-
         //[Route("[controller]/[action]")]
         public HomeController(ILogger<HomeController> logger) 
         { 
@@ -207,7 +205,7 @@ namespace Reporteadores.Controllers
 
             try
             {
-                var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "Temp", "ScreenshotsReporte.pdf");
+                var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp", "ScreenshotsReporte.pdf");
                 Console.WriteLine($"Root Path: {rootPath}");
                 var parametros = new Dictionary<string, string>
                 {
@@ -259,23 +257,19 @@ namespace Reporteadores.Controllers
                         {
                             var fileName = Path.GetFileName(filePath);
                             var publicPath = $"/Temp/{fileName}";
-                            var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
-                            Console.WriteLine($"Directorio público: {rutaReporte} -> {publicDirectory} -> {publicPath}");
-                            var destinationPath = Path.Combine(publicDirectory, fileName);
-                            if (!Directory.Exists(publicDirectory))
-                                Directory.CreateDirectory(publicDirectory);
+                            //var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
+                            //var destinationPath = Path.Combine(rootPath, fileName);
 
                             if (System.IO.File.Exists(filePath))
                             {
                                 if (download)
                                 {
                                     using (var sourceStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
-                                    using (var destinationStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                                    using (var destinationStream = new FileStream(rootPath, FileMode.Create, FileAccess.Write, FileShare.None))
                                     {
                                         await sourceStream.CopyToAsync(destinationStream);
                                     }
-                                    var fileBytes = await System.IO.File.ReadAllBytesAsync(destinationPath);
-                                    Console.WriteLine($"Directorio público: {destinationPath}");
+                                    var fileBytes = await System.IO.File.ReadAllBytesAsync(rootPath);
                                     return File(fileBytes, "application/pdf");
                                 }
                                 else
@@ -313,6 +307,7 @@ namespace Reporteadores.Controllers
         
         public Task<IActionResult> CreateReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {   
+            ViewBag.Message = "Cargando el reporte";
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false);
         }
         [HttpGet]

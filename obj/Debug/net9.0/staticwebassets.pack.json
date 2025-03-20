@@ -9,36 +9,72 @@
       "PackagePath": "staticwebassets\\Temp\\ScreenshotsReporte.pdf"
     },
     {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.xml",
+      "PackagePath": "staticwebassets\\Temp\\ScreenshotsReporte.xml"
+    },
+    {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\resultado.txt",
       "PackagePath": "staticwebassets\\Temp\\resultado.txt"
     },
     {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\site - copia.css",
-      "PackagePath": "staticwebassets\\css\\site - copia.css"
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.css",
+      "PackagePath": "staticwebassets\\css\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
+      "PackagePath": "staticwebassets\\css\\input.output.css"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\tailwind.output.css",
+      "PackagePath": "staticwebassets\\css\\tailwind.output.css"
+    },
+    {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\download-icon.webp",
-      "PackagePath": "staticwebassets\\images\\download-icon.webp"
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\down-icon.webp",
+      "PackagePath": "staticwebassets\\images\\down-icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\excel-icon.webp",
+      "PackagePath": "staticwebassets\\images\\excel-icon.webp"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image.webp",
       "PackagePath": "staticwebassets\\images\\image.webp"
     },
     {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\image1 (2).webp",
+      "PackagePath": "staticwebassets\\images\\image1 (2).webp"
+    },
+    {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\logo.webp",
       "PackagePath": "staticwebassets\\images\\logo.webp"
     },
     {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\pdf-icon.webp",
+      "PackagePath": "staticwebassets\\images\\pdf-icon.webp"
+    },
+    {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\pexels-photo-11505604.webp",
       "PackagePath": "staticwebassets\\images\\pexels-photo-11505604.webp"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\ver-icon.webp",
+      "PackagePath": "staticwebassets\\images\\ver-icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\images\\woman-with-headset.webp",
+      "PackagePath": "staticwebassets\\images\\woman-with-headset.webp"
     },
     {
       "Id": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\js\\site.js",

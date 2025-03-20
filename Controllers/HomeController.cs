@@ -9,6 +9,9 @@ using System.Xml.Linq;
 using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Net.Mail;
 
 namespace Reporteadores.Controllers
 {
@@ -29,11 +32,11 @@ namespace Reporteadores.Controllers
         public IActionResult Index()
         {
             var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
-
+            
             if (usernameSesion != null)
             {
                 // El usuario est� autenticado, realiza la l�gica deseada
-                ViewData["UsuarioActivo"] = usernameSesion;
+                ViewData["UserActive"] = usernameSesion;
                 return View();
             }
             else
@@ -50,7 +53,7 @@ namespace Reporteadores.Controllers
             if (usernameSesion != null)
             {
                 // El usuario est� autenticado, realiza la l�gica deseada
-                ViewData["UsuarioActivo"] = usernameSesion;
+                ViewData["UserActive"] = usernameSesion;
                 return View();
             }
             else
@@ -70,7 +73,7 @@ namespace Reporteadores.Controllers
         public IActionResult ViewReports(string publicPath)
         {
             var username = HttpContext.Session.GetString("Username");
-            ViewData["UsuarioActivo"] = username;
+            ViewData["UserActive"] = username;
              if (username != null)
             {
                 ViewData["PublicPath"] = publicPath;
@@ -92,7 +95,7 @@ namespace Reporteadores.Controllers
                 ViewBag.PeAnio = periodos;
                 var reportes = _BContext.Reportes.ToList();
                 ViewBag.Reporte = reportes;
-                ViewData["UsuarioActivo"] = username;
+                ViewData["UserActive"] = username;
                 if (usuario != null)
                     return View();
                 else
@@ -108,8 +111,22 @@ namespace Reporteadores.Controllers
             return RedirectToAction("Index", "Account");            
         }
 
-        public IActionResult ErrorPage()
+        public IActionResult SoporteReporte()
         {
+            ViewData["UserActive"] = HttpContext.Session.GetString("Username");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SoportReportSend(string name, string email, string problem)
+        {
+            string mensaje = EnviarCorreo(name, email, problem);
+
+            ViewBag.Nombre = name;
+            ViewBag.Email = email;
+            ViewBag.Problema = problem;
+            ViewBag.Mensaje = mensaje;
+
             return View();
         }
 
@@ -181,10 +198,10 @@ namespace Reporteadores.Controllers
 
         // M�todo para obtener los reportes seg�n el tipo seleccionado (PeTipo)
         [HttpGet]
-        private async Task<IActionResult> GenerateReportAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo, bool download)
+        private async Task<IActionResult> GenerateReportAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo, bool download, string format)
         {
             var username = HttpContext.Session.GetString("Username");
-            ViewData["UsuarioActivo"] = username;
+            ViewData["UserActive"] = username;
 
             var rutaReporte = await _BContext.Reportes
             .Where(u => u.ReNombre == ReNombre && u.ReCodigo == short.Parse(ReCodigo))
@@ -205,17 +222,8 @@ namespace Reporteadores.Controllers
 
             try
             {
-                var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp", "ScreenshotsReporte.pdf");
+                var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp", "ScreenshotsReporte." + format);
                 Console.WriteLine($"Root Path: {rootPath}");
-                var parametros = new Dictionary<string, string>
-                {
-                    { "EMPRESA", "BARRON" },
-                    { "REPORTE", "\'" + ReNombre + "\'"},
-                    { "ACTIVO", Activo ? "S" : "N" },
-                    { "AÑO", peAnio },
-                    { "PERIODO", peNumero },
-                    { "TIPO", peTipo }
-                };
 
                 string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\repotsEjecute.exe";
                 string[] parameters = 
@@ -229,6 +237,7 @@ namespace Reporteadores.Controllers
                     "0", 
                     "true",
                     rootPath,
+                    format,
                     "BARRON",
                 };
 
@@ -246,48 +255,57 @@ namespace Reporteadores.Controllers
                 {
                     if (process != null)
                     {
-                    string output = await process.StandardOutput.ReadToEndAsync();
-                    string error = await process.StandardError.ReadToEndAsync();
-                    await process.WaitForExitAsync();
-                    if (process.ExitCode == 0)
-                    {
-                        string filePath = output.Trim();
-
-                        if (System.IO.File.Exists(filePath))
+                        string output = await process.StandardOutput.ReadToEndAsync();
+                        string error = await process.StandardError.ReadToEndAsync();
+                        await process.WaitForExitAsync();
+                        if (process.ExitCode == 0)
                         {
-                            var fileName = Path.GetFileName(filePath);
-                            var publicPath = $"/Temp/{fileName}";
-                            //var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
-                            //var destinationPath = Path.Combine(rootPath, fileName);
+                            string filePath = output.Trim();
 
                             if (System.IO.File.Exists(filePath))
                             {
-                                if (download)
+                                var fileName = Path.GetFileName(filePath);
+                                var publicPath = $"/Temp/{fileName}";
+                                var publicDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp");
+                                var destinationPath = Path.Combine(publicDirectory, fileName);
+                                if (!Directory.Exists(publicDirectory))
+                                    Directory.CreateDirectory(publicDirectory);
+                                if (System.IO.File.Exists(filePath))
                                 {
-                                    using (var sourceStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
-                                    using (var destinationStream = new FileStream(rootPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                                    if (download)
                                     {
-                                        await sourceStream.CopyToAsync(destinationStream);
+                                        /*using (var sourceStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                                        using (var destinationStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                                        {
+                                            await sourceStream.CopyToAsync(destinationStream);
+                                        }*/
+                                        if (format == "PDF")
+                                        {
+                                            var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
+                                            return File(fileBytes, "application/pdf");
+                                        }
+                                        else
+                                        {
+                                            var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
+                                            return File(fileBytes, "application/vnd.ms-excel");
+                                        }
                                     }
-                                    var fileBytes = await System.IO.File.ReadAllBytesAsync(rootPath);
-                                    return File(fileBytes, "application/pdf");
+                                    else
+                                    {
+                                        Console.WriteLine($"Ruta pública in json: {publicPath}");
+                                        return Json(publicPath);
+                                    }
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"Ruta pública in json: {publicPath}");
-                                    return Json(new { publicPath });
+                                    return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
                                 }
                             }
-                            else
-                            {
-                                return NotFound(new { Success = false, Message = "El archivo generado no se encontró." });
-                            }
                         }
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Error: {error}");
-                    }
+                        else
+                        {
+                            Console.WriteLine($"Error: {error}");
+                        }
                     }
                     else
                     {
@@ -307,14 +325,44 @@ namespace Reporteadores.Controllers
         
         public Task<IActionResult> CreateReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {   
-            ViewBag.Message = "Cargando el reporte";
-            return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false);
+            
+            return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false, "pdf");
         }
         [HttpGet]
         public Task<IActionResult> DownloadReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {
-            return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true);
+            return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true,  "pdf");
+        }[HttpGet]
+        public Task<IActionResult> ExcelReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
+        {
+            return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true, "xml");
         }
-        
+
+        private string EnviarCorreo(string nombre, string email, string problema)
+        {
+            try
+            {
+                var mailMessage = new MailMessage();
+                mailMessage.From = new MailAddress("mario.hernandez@grupoabg.com");
+                mailMessage.To.Add(email);
+                mailMessage.Subject = "Soporte Técnico: Extenciones NOMIABG";
+                mailMessage.Body = $"Nombre: {nombre}\nCorreo Electrónico: {email}\nDescripción del Problema: {problema}";
+
+                using (var smtpClient = new SmtpClient("smtp.hostinger.com"))
+                {
+                    smtpClient.Port = 465;
+                    smtpClient.Credentials = new System.Net.NetworkCredential("mario.hernandez@grupoabg.com", "Mail_MH_0243");
+                    smtpClient.EnableSsl = true;
+                    smtpClient.Send(mailMessage);
+                }
+
+                return "Correo enviado exitosamente.";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error -> {ex.Message}");
+                return $"Error al enviar el correo: {ex.Message}";
+            }
+        }
     }
 }

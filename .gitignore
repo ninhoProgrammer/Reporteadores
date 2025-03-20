@@ -1,1 +1,13 @@
 wwwroot/Temp/ScreenshotsReporte.pdf
+*.dll
+*.bin
+*.db
+*bin\*
+/.vs*
+/.vs
+/bin
+/bin
+/node_modules
+/obj
+/bin/Debug/net9.0
+/obj/Debug/net9.0

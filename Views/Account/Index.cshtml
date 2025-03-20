@@ -2,9 +2,12 @@
     ViewData["Title"] = "Extensiones NominABG";
 }
 
-<div class="center-content">    
-    <h1><strong>Bienvenidos</strong></h1>
-    <h2>@ViewData["Title"]</h2>
-    <a class="btn btn-primary" asp-area="" asp-controller="Account" asp-action="Login">Iniciar</a>
-</div>
-
+<section class="flex min-h-screen flex-col items-center justify-center text-white">    
+    <div class="space-y-4 text-center">
+        <h1 class="border-2 rounded-lg bg-gray-500 p-2 text-2xl lg:text-8xl"><strong>Bienvenido</strong></h1>
+        <h2 class="border-2 rounded-lg bg-gray-500 p-2 text-xl lg:text-4xl">@ViewData["Title"]</h2>
+    </div>
+    <div class="justify-center p-10 shadow-xl">
+        <a class="border-2 h-12 w-12 rounded-lg bg-green-700 px-5 py-2 font-medium hover:bg-blue-500" asp-area="" asp-controller="Account" asp-action="Login">Iniciar</a>
+    </div>
+</section>

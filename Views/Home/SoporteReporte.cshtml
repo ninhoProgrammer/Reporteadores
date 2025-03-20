@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Soporte Tecnico";
+}
+
+<div class="center-content">
+    <h1>Formulario de Soporte Técnico</h1>
+    <form class="container2" action="/Home/SoportReportSend" method="post">
+       
+            <div class="p-2">
+                <h3 class="text-white">Nombre:</h3>
+            @if (@ViewData["UserActive"] != null)
+                {
+                    <input class="form-control" name="nombre" value="@ViewData["UserActive"]" readonly>
+                }
+                else
+                {
+                    <input class="form-control" name="nombre" required>
+                }
+            </div>
+        
+        <div class="p-2">
+            <h3 class="text-white">Correo Electrónico:</h3>
+            <input class="form-control" type="email" name="email" required>
+        </div>
+        <div class="p-2">
+            <h3 class="text-white">Descripción del Problema:</h3>
+            <textarea class="form-control" rows="5" name="problema" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>

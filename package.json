@@ -1,0 +1,59 @@
+{
+  "name": "reporteadores",
+  "version": "1.0.0",
+  "description": "Reporteador en .Net con RDLC de la empresa GrupoABG para la empresa GrupoABG para mas contartar dirijase sistemas/Mario",
+  "keywords": [],
+  "homepage": "https://github.com/ninhoProgrammer/Reporteadores#readme",
+  "bugs": {
+    "url": "https://github.com/ninhoProgrammer/Reporteadores/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninhoProgrammer/Reporteadores.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/output.css --watch"
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "browserslist": "^4.24.4",
+    "caniuse-lite": "^1.0.30001701",
+    "detect-libc": "^1.0.3",
+    "electron-to-chromium": "^1.5.109",
+    "enhanced-resolve": "^5.18.1",
+    "escalade": "^3.2.0",
+    "fill-range": "^7.1.1",
+    "fraction.js": "^4.3.7",
+    "graceful-fs": "^4.2.11",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "jiti": "^2.4.2",
+    "lightningcss": "^1.29.1",
+    "lightningcss-win32-x64-msvc": "^1.29.1",
+    "micromatch": "^4.0.8",
+    "mri": "^1.2.0",
+    "nanoid": "^3.3.8",
+    "node-addon-api": "^7.1.1",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "tapable": "^2.2.1",
+    "to-regex-range": "^5.0.1",
+    "update-browserslist-db": "^1.1.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.12"
+  }
+}

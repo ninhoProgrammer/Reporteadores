@@ -46,22 +46,56 @@ namespace Reporteadores.Controllers
             }
         }
 
-        public IActionResult Nomina()
+        [HttpPost]
+        public IActionResult Nomina(int peAnio, int peTipo, int teNumeroPeriodo)
         {
-            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
+            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesión
 
             if (usernameSesion != null)
             {
-                // El usuario est� autenticado, realiza la l�gica deseada
+                // El usuario está autenticado, realiza la lógica deseada
+                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
+                ViewBag.PeAnio = periodos;
                 ViewData["UserActive"] = usernameSesion;
+
+                // Crear la sentencia SQL
+                var query = _BContext.Nominas
+                    .Where(p => p.PeYear == peAnio && p.PeTipo == peTipo && p.PeNumero == teNumeroPeriodo)
+                    .Select(p => new { p.PeYear, p.CbSalario })
+                    .ToList();
+
+                ViewBag.DatePeriodo = query;
+
                 return View();
             }
             else
             {
-                // El usuario no est� autenticado, redirigir a la p�gina de inicio de sesi�n
+                // El usuario no está autenticado, redirigir a la página de inicio de sesión
                 return RedirectToAction("Index", "Account");
             }
         }
+
+        public IActionResult Nomina()
+        {
+            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesión
+
+            if (usernameSesion != null)
+            {
+                // El usuario está autenticado, realiza la lógica deseada
+                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
+                ViewBag.PeAnio = periodos;
+                ViewData["UserActive"] = usernameSesion;
+
+                
+                return View();
+            }
+            else
+            {
+                // El usuario no está autenticado, redirigir a la página de inicio de sesión
+                return RedirectToAction("Index", "Account");
+            }
+        }
+
 
         public IActionResult Privacy()
         {
@@ -88,15 +122,13 @@ namespace Reporteadores.Controllers
 
             if (username != null)
             {
-                var usuario = _BContext.Reportes.Select(u => new { u.ReNombre });
-
                 // Llenar el primer ComboBox con los a�os �nicos
                 var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
                 ViewBag.PeAnio = periodos;
                 var reportes = _BContext.Reportes.ToList();
                 ViewBag.Reporte = reportes;
                 ViewData["UserActive"] = username;
-                if (usuario != null)
+                if (username != null)
                     return View();
                 else
                     return RedirectToAction("ErrorPage", "Home");
@@ -118,13 +150,10 @@ namespace Reporteadores.Controllers
         }
 
         [HttpPost]
-        public IActionResult SoportReportSend(string name, string email, string problem)
+        public IActionResult SoportReportSend(string name, string email,string phone, string problem)
         {
-            string mensaje = EnviarCorreo(name, email, problem);
+            string mensaje = EnviarCorreo(name, email, phone, problem);
 
-            ViewBag.Nombre = name;
-            ViewBag.Email = email;
-            ViewBag.Problema = problem;
             ViewBag.Mensaje = mensaje;
 
             return View();
@@ -325,7 +354,6 @@ namespace Reporteadores.Controllers
         
         public Task<IActionResult> CreateReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {   
-            
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false, "pdf");
         }
         [HttpGet]
@@ -338,31 +366,141 @@ namespace Reporteadores.Controllers
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true, "xml");
         }
 
-        private string EnviarCorreo(string nombre, string email, string problema)
+        private string EnviarCorreo(string name, string email, string phone,  string problem)
         {
             try
             {
-                var mailMessage = new MailMessage();
-                mailMessage.From = new MailAddress("mario.hernandez@grupoabg.com");
-                mailMessage.To.Add(email);
-                mailMessage.Subject = "Soporte Técnico: Extenciones NOMIABG";
-                mailMessage.Body = $"Nombre: {nombre}\nCorreo Electrónico: {email}\nDescripción del Problema: {problema}";
-
-                using (var smtpClient = new SmtpClient("smtp.hostinger.com"))
+                if (sendMessageITSoport(name, email, phone, problem))
                 {
-                    smtpClient.Port = 465;
-                    smtpClient.Credentials = new System.Net.NetworkCredential("mario.hernandez@grupoabg.com", "Mail_MH_0243");
-                    smtpClient.EnableSsl = true;
-                    smtpClient.Send(mailMessage);
+                    if (sendMessage(name, email))
+                        return "Correo enviado exitosamente.";
+                    else
+                        return $"Error al enviar el correo";
                 }
-
-                return "Correo enviado exitosamente.";
+                return $"Error al enviar el correo a soporte";
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error -> {ex.Message}");
                 return $"Error al enviar el correo: {ex.Message}";
             }
+        }
+
+        public bool sendMessage(string name, string email)
+        {
+            bool flag = false;
+            using (var mailMessage = new MailMessage())
+            {
+                mailMessage.From = new MailAddress("mario.hernandez@grupoabg.com");
+                mailMessage.To.Add(email);
+                mailMessage.Subject = "Soporte Técnico: Extensiones NOMIABG";
+                mailMessage.IsBodyHtml = true;
+
+                // Cuerpo del correo en formato HTML
+                mailMessage.Body = @"
+                    <html>
+                        <body style=""font-family: Arial, sans-serif; margin: 0; padding: 0; "">
+                            <div style=""max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"">
+                                <!-- Encabezado -->
+                                <header style=""background-color: #437cb1; color: white; padding: 20px; text-align: center;"">
+                                    <h1 style=""margin: 0;"">Soporte Técnico: Extensiones NOMIABG</h1>
+                                </header>
+
+                                <!-- Mensaje principal -->
+                                <div style=""padding: 20px;"">
+                                    <h2 style=""color: #333;"">Hola " + name + @":</h2>
+                                    <p style=""line-height: 1.6; color: #555;"">
+                                        Su problema ha sido enviado a nuestro equipo de soporte IT. Este es un mensaje automático, por favor no responder a este correo.
+                                    </p>
+                                    <hr style=""border: 0; height: 1px; background-color: #ddd; margin: 20px 0;"">
+                                    <b>Atentamente,</b>
+                                    <p style=""color: #555;"">Soporte IT de Grupo ABG</p>
+                                    <hr style=""border: 0; height: 1px; background-color: #ddd; margin: 20px 0;"">
+                                </div>
+
+                                <!-- Información de contacto -->
+                                <div style=""padding: 20px; background-color: #ffffff;"">
+                                    <p style=""margin: 0; font-size: 14px; color: #333;"">
+                                        <b>GRUPO ABG</b><br>
+                                        Calle Naranjos 605 Colonia Jardín<br>
+                                        San Luis Potosí, S.L.P. México, 78270
+                                    </p>
+
+                                    <!-- Redes sociales -->
+                                    <div style=""margin-top: 20px; text-align: center;"">
+                                        <a href=""https://www.grupoabg.com"" target=""_blank"" style=""text-decoration: none;"">
+                                            <img src=""https://img.icons8.com/?size=100&id=yOfOLQrIJWja&format=png&color=000000"" alt=""Website"" style=""width: 40px; margin: 0 10px;"">
+                                        </a>
+                                        <a href=""tel:+524441518500"" style=""text-decoration: none;"">
+                                            <img src=""https://img.icons8.com/?size=100&id=6rYRCUAFOL4w&format=png&color=000000"" alt=""Teléfono"" style=""width: 40px; margin: 0 10px;"">
+                                        </a>
+                                        <a href=""mailto:soporte@grupoabg.com"" style=""text-decoration: none;"">
+                                            <img src=""https://img.icons8.com/?size=100&id=HyjRWfleuVje&format=png&color=000000"" alt=""Correo"" style=""width: 40px; margin: 0 10px;"">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Footer -->
+                                <footer style=""padding: 20px; background-color: #437cb1; color: white; text-align: center; font-size: 12px;"">
+                                    <p>
+                                        La atención vía telefónica está disponible de <b>Lunes a Viernes</b> en un horario de <b>9:00 a.m a 2:00 p.m</b> 
+                                        y de <b>4:00 p.m a 6:00 p.m</b> marcando al número telefónico <b>444-151-85-00 Ext.138</b>, donde atenderemos tus dudas 
+                                        sobre el portal así como brindarte soporte técnico.
+                                    </p>
+                                    <p style=""margin-top: 10px;"">Grupo ABG - Todos los derechos reservados © 2025</p>
+                                </footer>
+                            </div>
+                        </body>
+                    </html>";
+
+                using (var smtpClient = new SmtpClient("smtp.hostinger.com"))
+                {
+                    smtpClient.Port = 587;
+                    smtpClient.Credentials = new System.Net.NetworkCredential("mario.hernandez@grupoabg.com", "Mail_MH_0243");
+                    smtpClient.EnableSsl = true;
+                    smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    smtpClient.Send(mailMessage);
+                    flag = true;
+                }
+            }
+            return flag;
+        }
+        public bool sendMessageITSoport(string name, string email, string phone, string problem)
+        {
+            bool flag = false;
+            using (var mailMessage = new MailMessage())
+            {
+                mailMessage.From = new MailAddress("mario.hernandez@grupoabg.com");
+                mailMessage.To.Add("mario.hernandez@grupoabg.com");
+                mailMessage.To.Add("mariohm100293@gmail.com");
+                mailMessage.Subject = "Soporte Técnico: Extenciones NOMIABG";
+                mailMessage.IsBodyHtml = true;
+
+                // Cuerpo del correo en formato HTML
+                mailMessage.Body = $@"
+                    <html>
+                        <body style='font-family: Arial, sans-serif;'>
+                            <h2>Soporte Técnico: Extensiones NOMIABG</h2>
+                            <p><strong>Nombre:</strong> {name}</p>
+                            <p><strong>Correo Electrónico:</strong> {email}</p>
+                            <p><strong>Telefono: </strong> {phone}</p>
+                            <p><strong>Descripción del Problema:</strong> {problem}</p>
+                            <hr />
+                            
+                        </body>
+                    </html>";
+
+                using (var smtpClient = new SmtpClient("smtp.hostinger.com"))
+                {
+                    smtpClient.Port = 587;
+                    smtpClient.Credentials = new System.Net.NetworkCredential("mario.hernandez@grupoabg.com", "Mail_MH_0243");
+                    smtpClient.EnableSsl = true;
+                    smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    smtpClient.Send(mailMessage);
+                    flag = true;
+                }
+            }
+            return flag;
         }
     }
 }

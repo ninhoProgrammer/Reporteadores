@@ -354,5 +354,4 @@ C:\Users\mario\Documents\GitHub\Reporteadores\bin\Debug\net9.0\tailwind.extensio
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\45ldr5rubg-edzm6dwtrx.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\1620syf7ze-46m4jw1vl5.gz
-C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\vtgcxuy0dh-cxh0qqdvrn.gz
-C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\rzn2z8o1km-ynbdnnqvu5.gz
+C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\vtgcxuy0dh-snilfkwu60.gz

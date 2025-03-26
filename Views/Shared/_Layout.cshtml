@@ -76,6 +76,12 @@
 
     <main role="main">
         @RenderBody()
+        <div id="loadingModal" class="bg-opacity-50 fixed inset-0 hidden bg-black">
+            <div class="absolute top-1/2 left-1/2 container -translate-x-1/2 -translate-y-1/2 transform content-center rounded-lg bg-white p-6 text-center shadow-lg">
+                <p class="mb-4 text-lg font-semibold">Cargando, por favor espera...</p>
+                <div class="border-t-4 h-12 w-12 animate-spin rounded-full border-blue-500"></div>
+            </div>
+        </div>
     </main>
 
     @if (ViewData["UserActive"] == null)
@@ -85,7 +91,7 @@
                 <img class="h-12 w-12" src="~/images/woman-with-headset.webp" alt="Atención vía telefónica">
             </div>
             <div class="h-full items-center bg-[#437cb1]">
-                <p>La atención vía telefónica está disponible de <b>Lunes a Viernes</b> en un horario de <b>9:00 a.m a 2:00 p.m</b> y de <b>4:00 p.m a 6:00 p.m</b> marcando al número telefónico <b>151-85-00 Ext.138</b>, en él que atenderemos tus dudas sobre el portal así como brindarte soporte técnico.</p>
+                <p>La atención vía telefónica está disponible de <b>Lunes a Viernes</b> en un horario de <b>9:00 a.m a 2:00 p.m</b> y de <b>4:00 p.m a 6:00 p.m</b> marcando al número telefónico <b>444-151-85-00 Ext.138</b>, en él que atenderemos tus dudas sobre el portal así como brindarte soporte técnico.</p>
             </div>
             <div class="h-full p-4">
                 <p>&copy; 2024 - Reportes ABG | Todos los derechos reservados | GrupoABG</p>

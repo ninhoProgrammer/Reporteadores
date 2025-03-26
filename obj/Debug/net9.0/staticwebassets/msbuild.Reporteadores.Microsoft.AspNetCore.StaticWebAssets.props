@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cxh0qqdvrn</Fingerprint>
-      <Integrity>QBNs9CU2RdKxDJqlLwraENfNalpov/ab6Yz2OySvfZg=</Integrity>
+      <Fingerprint>snilfkwu60</Fingerprint>
+      <Integrity>SO9HOGv5EbDPp2Rt2GSE3zdUoT3N0Cj7C7jILGNWhAM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\input.output.css'))</OriginalItemSpec>
@@ -1362,29 +1362,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2hace9vo7e</Fingerprint>
-      <Integrity>+r046oa2l+6DmZKuqy72M1hYy9E5hJFAmeJKVU/RwoM=</Integrity>
+      <Fingerprint>qaf8wzkubb</Fingerprint>
+      <Integrity>cktuQg/Z7i8R/Xupx+wqVQh6ScVb9LcESLmo5PE129s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.pdf'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.xml'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Reporteadores</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Reporteadores</BasePath>
-      <RelativePath>Temp/ScreenshotsReporte.xml</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ynbdnnqvu5</Fingerprint>
-      <Integrity>Tg/PSujgx+lZ9p2ZQcp2XR5tcOouo1C3FUCSr9af0lI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.xml'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

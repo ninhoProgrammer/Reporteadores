@@ -1,8 +1,117 @@
-@{
+﻿@{
     ViewData["Title"] = "Nomina";
 }
-<div class="center-content">
-    <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Engrane girando" />
-    <h1><strong>Trabajando en ello, disculpa @ViewData["UserActive"]</strong></h1>
-    <h2>Gracias por usar extensiones NominABG</h2>
-</div>
+<section class="mt-20 flex flex-col items-center">
+    <form asp - action="Nomina" method="post">
+    <div class="border-2 container flex flex-col items-center rounded-lg bg-gray-500 p-5 text-white">
+        <h1 class="text-center text-base lg:text-3xl">
+            <strong>Selecciona tus opciones</strong>
+        </h1>
+
+        <div class="flex flex-col lg:flex-row">
+            <section class ="px-2">
+                <h3>Año</h3>
+                <select id="peAnio" class="w-32 rounded border border-blue-500 p-1 px-1 text-black">
+                    <option value="">AÑO</option>
+                    @foreach (var anio in @ViewBag.PeAnio)
+                    {
+                        <option value="@anio">@anio</option>
+                    }
+                </select>
+            </section>
+            <section class="px-2">
+                <h3>Tipo</h3>
+                <select id="peTipo" class="w-32 rounded border border-blue-500 p-1 px-1 text-black" disabled>
+                    <option value="">TIPO</option>
+                </select>
+            </section>
+            <section class="px-2">
+                <h3>Número</h3>
+                <select id="teNumeroPeriodo" class="w-32 rounded border border-blue-500 p-1 px-1 text-black" disabled>
+                    <option value="">NUMERO</option>
+                </select>
+            </section>
+
+            <div class="px-2 py-2 text-center">
+                <button id="openModal" class="select-row border-2 rounded-lg bg-green-700 px-5 py-2 font-medium hover:bg-blue-500">Iniciar</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="border-2 container rounded-lg bg-gray-500 p-4 shadow-lg">
+        <div class="mb-4 text-center text-white">
+            <h1 class="text-xl font-semibold">Nómina: @ViewBag.DatePeriodo</h1>
+        </div>
+        
+        <div class="mb-2 justify-center rounded-lg border bg-gray-300 p-6 text-gray-600 shadow-md">
+            <div class="flex w-full flex-wrap text-sm sm:flex-col lg:flex-row lg:text-lg">
+                <div class="flex flex-grow flex-col">
+                    <div class="flex flex-grow flex-col py-2 lg:flex-row">
+                        <div class="flex flex-grow">
+                            <label class="flex-1 py-2 text-right">Periodo:</label>
+                            <input class="flex-1 rounded border px-2 py-1" name="periodoInicio" value="@ViewBag.DatePeriodo" readonly>
+                        </div>
+                        <div class="flex flex-grow">
+                            <label class="flex-1 py-2 text-right">al:</label>
+                            <input class="flex-1 rounded border px-2 py-1" name="periodoFin" value="@ViewBag.DatePeriodo" readonly>
+                        </div>
+                    </div>
+                    <div class="flex flex-grow flex-col py-2 lg:flex-row">
+                        <div class="flex flex-grow">
+                            <label class="flex-1 py-2 text-right">Asistencia:</label>
+                            <input class="flex-1 rounded border px-2 py-1" name="asistenciaInicio" value="@ViewBag.DatePeriodo" readonly>
+                        </div>
+                        <div class="flex flex-grow">
+                            <label class="flex-1 py-2 text-right">al:</label>
+                            <input class="flex-1 rounded border px-2 py-1" name="asistenciaFin" value="@ViewBag.DatePeriodo" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-grow flex-col">
+                    <div class="flex lg:py-2">
+                        <label class="flex-1 py-2 text-right">Estado:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="estado" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                    <div class="flex lg:py-2">
+                        <label class="flex-1 py-2 text-right">Descripción:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="descripcion" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex w-full flex-grow flex-wrap py-2 text-sm sm:flex-col lg:flex-row lg:text-lg">
+                <div class="flex flex-grow flex-col lg:flex-row">
+                    <div class="flex flex-grow lg:py-2">
+                        <label class="flex-1 py-2 text-right">Percepción:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="percepcion" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                    <div class="flex flex-grow lg:py-2">
+                        <label class="flex-1 py-2 text-right">Deducción:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="deduccion" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                </div>
+                <div class="flex flex-grow flex-col lg:flex-row">
+                    <div class="flex flex-grow lg:py-2">
+                        <label class="flex-1 py-2 text-right">Neto:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="neto" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                    <div class="flex flex-grow lg:py-2">
+                        <label class="flex-1 py-2 text-right">Empleados:</label>
+                        <input class="flex-1 rounded border px-2 py-1" name="empleados" value="@ViewBag.DatePeriodo" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fecha -->
+            <div class="flex w-full flex-grow items-center text-sm sm:flex-col md:flex-row md:text-lg">
+                <div class="flex w-full flex-col items-center lg:flex-row">
+                    <label class="flex-1 py-2 text-right">Fecha:</label>
+                    <input class="flex-1 rounded border px-2 py-1" name="fecha" value="@ViewBag.DatePeriodo" readonly>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</section>

@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.14 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.0.17 | MIT License | https://tailwindcss.com */
 .collapse {
   visibility: collapse;
 }
@@ -125,9 +125,6 @@
 .me-auto {
   margin-inline-end: auto;
 }
-.mt-\[50vh\] {
-  margin-top: 50vh;
-}
 .mt-auto {
   margin-top: auto;
 }
@@ -191,8 +188,8 @@
 .max-w-\[95\%\] {
   max-width: 95%;
 }
-.min-w-full {
-  min-width: 100%;
+.flex-1 {
+  flex: 1;
 }
 .flex-shrink {
   flex-shrink: 1;
@@ -324,23 +321,20 @@
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 1px;
 }
-.border-t-transparent {
-  border-top-color: transparent;
-}
 .bg-\[\#437cb1\] {
   background-color: #437cb1;
 }
 .bg-transparent {
   background-color: transparent;
 }
-.object-center {
-  object-position: center;
-}
 .text-center {
   text-align: center;
 }
 .text-end {
   text-align: end;
+}
+.text-right {
+  text-align: right;
 }
 .text-start {
   text-align: start;

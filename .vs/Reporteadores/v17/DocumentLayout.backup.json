@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\viewreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\viewreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\nomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\nomina.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\soportereporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\soportereporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\views\\home\\soportreportsend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:views\\home\\soportreportsend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|c:\\users\\mario\\documents\\github\\reporteadores\\wwwroot\\css\\output.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{82B6BC41-9621-4BF2-840C-042D852A944E}|Reporteadores.csproj|solutionrelative:wwwroot\\css\\output.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,27 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Index.cshtml",
-              "RelativeToolTip": "Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T18:54:13.312Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T22:57:00.031Z",
               "IsPinned": true,
@@ -91,45 +81,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "output.css",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\output.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\output.css",
-              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\output.css",
-              "RelativeToolTip": "wwwroot\\css\\output.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-19T20:05:04.693Z",
-              "EditorCaption": ""
+              "Title": "SoportReportSend.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\SoportReportSend.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SoportReportSend.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\SoportReportSend.cshtml",
+              "RelativeToolTip": "Views\\Home\\SoportReportSend.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T20:33:50.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "SoporteReporte.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\SoporteReporte.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SoporteReporte.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\SoporteReporte.cshtml",
+              "RelativeToolTip": "Views\\Home\\SoporteReporte.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T19:51:45.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ViewReports.cshtml",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\ViewReports.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ViewReports.cshtml",
               "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\ViewReports.cshtml",
               "RelativeToolTip": "Views\\Home\\ViewReports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-19T18:14:54.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-18T20:06:18.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "jquery.min.js",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.min.js",
@@ -137,60 +125,103 @@
               "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.min.js",
               "ViewState": "AgIAAIMAAAAAAAAAAAAQwKkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-15T00:25:48.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T00:25:48.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACEAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAF4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T19:23:25.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T19:23:25.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAB7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T19:00:12.321Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2025-03-07T19:00:12.321Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f564b727-9115-4df4-9681-c7314601ccdd",
+        "Display": 0,
+        "X": 516,
+        "Y": 26,
+        "Width": 970,
+        "Height": 1037,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 166,
+          "SelectedChildIndex": 2,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reporte.cshtml",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Reporte.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Reporte.cshtml",
-              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Reporte.cshtml",
-              "RelativeToolTip": "Views\\Home\\Reporte.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAnwEYAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T19:48:58.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAADEBAAAAAAAAAAAQwEcBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T23:36:29.553Z",
+              "WhenOpened": "2025-03-24T21:10:59.262Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reporte.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Reporte.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Reporte.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Reporte.cshtml",
+              "RelativeToolTip": "Views\\Home\\Reporte.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T21:11:22.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nomina.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Nomina.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Nomina.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Home\\Nomina.cshtml",
+              "RelativeToolTip": "Views\\Home\\Nomina.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T17:19:33.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T18:54:13.312Z"
             }
           ]
         }

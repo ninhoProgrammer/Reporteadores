@@ -5,7 +5,7 @@
 }  
 
 <div class="mt-20 flex justify-center">
-    <div class="border-2 flex max-w-[95%] flex-col items-center rounded-lg bg-gray-500 p-5 text-white">
+    <div class="border-2 flex flex-col items-center rounded-lg bg-gray-500 p-5 text-white">
         <h1 class="text-center text-3xl">
             <strong >Selecciona tus opciones</strong>
         </h1>  
@@ -34,10 +34,10 @@
                </select>  
            </section>  
        </div>  
- 
-       <div class="mt-5 flex rounded-lg bg-gray-500">  
-           <table id="rowSelect" class="min-w-full rounded-lg bg-white text-black">  
-               <thead>  
+        
+       <div class="mt-3 flex w-full rounded-lg bg-gray-500">
+            <table id="rowSelect" class="w-full rounded-lg bg-gray-300 text-black">
+                <thead>  
                    <tr>  
                        <th class="border-b px-4 py-2">Codigo</th>  
                        <th class="border-b px-4 py-2">Nombre</th>  
@@ -55,21 +55,16 @@
                                <td class="border-b px-4 py-2">@Html.DisplayFor(m => reports.ReNombre)</td>
                                <td class="border-b px-4 py-2 text-center"><button id="openModal" class="select-row rounded bg-blue-500 p-2 text-white" ><img src="~/images/ver-icon.webp" /></button></td>
                                <td class="space-x-4 border-b px-4 py-2 text-center">
-                                   <button id="openModal" class="download-row rounded bg-red-500 p-2 text-white"><img src="~/images/pdf-icon.webp" /></button>
-                                   <button id="openModal" class="excel-row rounded bg-green-500 p-2 text-white"><img src="~/images/excel-icon.webp" /></button>
+                               <button id="openModal" class="download-row rounded bg-red-500 p-2 text-white"><img src="~/images/pdf-icon.webp" /></button>
+                               <button id="openModal" class="excel-row rounded bg-green-500 p-2 text-white"><img src="~/images/excel-icon.webp" /></button>
                                </td>
                            </tr>  
                        }  
                    }  
                </tbody>  
            </table>  
-       </div>  
+       </div>
    </div>  
 </div>  
  
-<div id="loadingModal" class="bg-opacity-50 fixed inset-0 hidden bg-black">
-    <div class="absolute top-1/2 left-1/2 container -translate-x-1/2 -translate-y-1/2 transform content-center rounded-lg bg-white p-6 text-center shadow-lg">
-        <p class="mb-4 text-lg font-semibold">Cargando, por favor espera...</p>
-        <div class="border-t-4 h-12 w-12 animate-spin rounded-full border-blue-500"></div>
-    </div>  
-</div>
+

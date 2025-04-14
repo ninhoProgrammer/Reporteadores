@@ -46,56 +46,67 @@ namespace Reporteadores.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult Nomina(int peAnio, int peTipo, int teNumeroPeriodo)
-        {
-            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesión
-
-            if (usernameSesion != null)
-            {
-                // El usuario está autenticado, realiza la lógica deseada
-                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
-                ViewBag.PeAnio = periodos;
-                ViewData["UserActive"] = usernameSesion;
-
-                // Crear la sentencia SQL
-                var query = _BContext.Nominas
-                    .Where(p => p.PeYear == peAnio && p.PeTipo == peTipo && p.PeNumero == teNumeroPeriodo)
-                    .Select(p => new { p.PeYear, p.CbSalario })
-                    .ToList();
-
-                ViewBag.DatePeriodo = query;
-
-                return View();
-            }
-            else
-            {
-                // El usuario no está autenticado, redirigir a la página de inicio de sesión
-                return RedirectToAction("Index", "Account");
-            }
-        }
-
         public IActionResult Nomina()
         {
-            var usernameSesion = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesión
+            var usernameSesion = HttpContext.Session.GetString("Username");
 
             if (usernameSesion != null)
             {
-                // El usuario está autenticado, realiza la lógica deseada
-                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
+                List<int> periodos = _BContext.Periodos.Select(p => (int)p.PeYear).Distinct().OrderByDescending(p => p).ToList();
                 ViewBag.PeAnio = periodos;
                 ViewData["UserActive"] = usernameSesion;
 
-                
                 return View();
             }
             else
             {
-                // El usuario no está autenticado, redirigir a la página de inicio de sesión
                 return RedirectToAction("Index", "Account");
             }
         }
 
+        public IActionResult Reporte()
+        {
+            var username = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
+
+            if (username != null)
+            {
+                // Llenar el primer ComboBox con los a�os �nicos
+                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
+                ViewBag.PeAnio = periodos;
+                var reportes = _BContext.Reportes.ToList();
+                ViewBag.Reporte = reportes;
+                ViewData["UserActive"] = username;
+                if (username != null)
+                    return View();
+                else
+                    return RedirectToAction("ErrorPage", "Home");
+            }
+            return RedirectToAction("Index", "Account");
+        }
+
+        [HttpGet]
+        public JsonResult NominaView(int peAnio, int peTipo, int peNumero)
+        {
+            var query = _BContext.Nominas
+                .Where(p => p.PeYear == peAnio && p.PeTipo == peTipo && p.PeNumero == peNumero)
+                .Select(p => new
+                {
+                    p.PeYear,
+                    p.CbSalario,
+                    PeriodoFin = p.NoDiasIn,
+                    Estado = p.NoDiasFi,
+                    Descripcion = p.NoObserva,
+                    Percepcion = p.NoPercepc,
+                    Deduccion = p.NoDeducci,
+                    Neto = p.NoNeto,
+                    Empleados = p.CbCodigo,
+                    Fecha = DateTime.Now.ToString("dd/MM/yyyy")
+                })
+                .FirstOrDefault();
+
+            return Json(query);
+            
+        }
 
         public IActionResult Privacy()
         {
@@ -116,25 +127,7 @@ namespace Reporteadores.Controllers
             return RedirectToAction("Index", "Account");
         }
        
-        public IActionResult Reporte()
-        {
-            var username = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
-
-            if (username != null)
-            {
-                // Llenar el primer ComboBox con los a�os �nicos
-                var periodos = _BContext.Periodos.Select(p => p.PeYear).Distinct().ToList().OrderByDescending(p => p);
-                ViewBag.PeAnio = periodos;
-                var reportes = _BContext.Reportes.ToList();
-                ViewBag.Reporte = reportes;
-                ViewData["UserActive"] = username;
-                if (username != null)
-                    return View();
-                else
-                    return RedirectToAction("ErrorPage", "Home");
-            }
-            return RedirectToAction("Index", "Account");
-        }
+        
 
         public IActionResult Signout()
         {
@@ -254,7 +247,7 @@ namespace Reporteadores.Controllers
                 var rootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Temp", "ScreenshotsReporte." + format);
                 Console.WriteLine($"Root Path: {rootPath}");
 
-                string exePath = @"C:\Users\mario\Documents\GitHub\repotsEjecute\bin\Debug\repotsEjecute.exe";
+                string exePath = @"C:\Users\mario\Documents\GitHub\reportsEjecute\bin\Debug\repotsEjecute.exe";
                 string[] parameters = 
                 {
                     rutaReporte, 

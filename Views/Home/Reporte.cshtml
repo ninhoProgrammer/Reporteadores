@@ -1,22 +1,22 @@
 ﻿@{  
    ViewData["Title"] = "Reporte";  
    var listReporte = ViewBag.Reporte as List<Reporte>;  
-   var peAnio = ViewBag.PeAnio as List<int>;  
+   var peAnio = ViewBag.PeAnio as List<int> ?? new List<int>();
 }  
 
 <div class="mt-20 flex justify-center">
     <div class="border-2 flex flex-col items-center rounded-lg bg-gray-500 p-5 text-white">
-        <h1 class="text-center text-3xl">
-            <strong >Selecciona tus opciones</strong>
-        </h1>  
+       <h1 class="text-center text-3xl">
+           <strong >Selecciona tus opciones</strong>
+       </h1>  
  
        <div class="flex space-x-4">  
            <section>  
                <h3>Año</h3>
                 <select id="peAnio" class="w-32 rounded border border-blue-500 p-1 text-black">
-                    <option value="">AÑO</option>  
-                   @foreach (var anio in @ViewBag.PeAnio)  
-                   {  
+                    <option value="">AÑO</option>
+                    @foreach (var anio in ViewBag.PeAnio)
+                    {  
                        <option value="@anio">@anio</option>  
                    }  
                </select>  

@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>snilfkwu60</Fingerprint>
-      <Integrity>SO9HOGv5EbDPp2Rt2GSE3zdUoT3N0Cj7C7jILGNWhAM=</Integrity>
+      <Fingerprint>dhmr3r3d9g</Fingerprint>
+      <Integrity>kUlPVpKhJBMDe/hSE93rHrMI9wYOAJkSuLWqtxWBTi4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\input.output.css'))</OriginalItemSpec>
@@ -1272,8 +1272,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>46m4jw1vl5</Fingerprint>
-      <Integrity>xHNPUMXghj7ggONJHvoxTdHKkkyY8t1BvkwgxuWTsPw=</Integrity>
+      <Fingerprint>ztn9lhq6ry</Fingerprint>
+      <Integrity>5xkWDvgEMcQv2CGbUx2MZbPOwyH71C4t7UrgMvcEll4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.min.js'))</OriginalItemSpec>
@@ -1362,11 +1362,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qaf8wzkubb</Fingerprint>
-      <Integrity>cktuQg/Z7i8R/Xupx+wqVQh6ScVb9LcESLmo5PE129s=</Integrity>
+      <Fingerprint>eo9wxawdo7</Fingerprint>
+      <Integrity>Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.xml'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Reporteadores</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Reporteadores</BasePath>
+      <RelativePath>Temp/ScreenshotsReporte.xml</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dkr0qbw353</Fingerprint>
+      <Integrity>c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Temp\ScreenshotsReporte.xml'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

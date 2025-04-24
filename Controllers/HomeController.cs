@@ -85,27 +85,57 @@ namespace Reporteadores.Controllers
         }
 
         [HttpGet]
-        public JsonResult NominaView(int peAnio, int peTipo, int peNumero)
+        public IActionResult NominaRequest(int peAnio, int peTipo, int peNumero)
         {
-            var query = _BContext.Nominas
+            var username = HttpContext.Session.GetString("Username"); // Recupera el nombre de usuario de la sesi�n
+
+            if (username != null)
+            {
+                var per = _BContext.Periodos
                 .Where(p => p.PeYear == peAnio && p.PeTipo == peTipo && p.PeNumero == peNumero)
                 .Select(p => new
                 {
-                    p.PeYear,
-                    p.CbSalario,
-                    PeriodoFin = p.NoDiasIn,
-                    Estado = p.NoDiasFi,
-                    Descripcion = p.NoObserva,
-                    Percepcion = p.NoPercepc,
-                    Deduccion = p.NoDeducci,
-                    Neto = p.NoNeto,
-                    Empleados = p.CbCodigo,
-                    Fecha = DateTime.Now.ToString("dd/MM/yyyy")
+                    p.PeFecIni,
+                    p.PeFecFin,
+                    p.PeAsiIni,
+                    p.PeAsiFin,
+                    p.PeFecPag,
+                    p.PeStatus,
+                    p.PeDescrip,
+                    p.PeTotPer,
+                    p.PeTotDed,
+                    p.PeTotNet,
+                    p.PeNumEmp
                 })
                 .FirstOrDefault();
 
-            return Json(query);
-            
+                if (per == null)
+                {
+                    return NotFound();
+                }
+
+                var model = new NominaViewModel
+                {
+                    PeYear = peAnio,
+                    PeNumero = peNumero,
+                    PeTipo = peTipo,
+                    PeriodoInicio = per.PeFecIni.ToString(),
+                    PeriodoFin = per.PeFecFin.ToString(), // Ajusta si hay otra columna
+                    AsistenciaInicio = per.PeAsiIni.ToString(), // Ajusta si hay otra columna
+                    AsistenciaFin = per.PeAsiFin.ToString(),    // Ajusta si hay otra columna
+                    Estado = per.PeStatus.ToString(),
+                    Descripcion = per.PeDescrip,
+                    Percepcion = per.PeTotPer,
+                    Deduccion = per.PeTotDed,
+                    Neto = per.PeTotNet,
+                    Empleados = per.PeNumEmp,
+                    Fecha = per.PeFecPag
+                };
+
+                ViewData["UserActive"] = username;
+                return View(model);
+            }
+            return RedirectToAction("Index", "Account");
         }
 
         public IActionResult Privacy()
@@ -225,6 +255,7 @@ namespace Reporteadores.Controllers
             var username = HttpContext.Session.GetString("Username");
             ViewData["UserActive"] = username;
 
+            
             var rutaReporte = await _BContext.Reportes
             .Where(u => u.ReNombre == ReNombre && u.ReCodigo == short.Parse(ReCodigo))
             .Select(u => u.ReArchivo)
@@ -260,7 +291,7 @@ namespace Reporteadores.Controllers
                     "true",
                     rootPath,
                     format,
-                    "BARRON",
+                    "BARRON"
                 };
 
                 var psi = new ProcessStartInfo
@@ -349,11 +380,14 @@ namespace Reporteadores.Controllers
         {   
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, false, "pdf");
         }
+
         [HttpGet]
         public Task<IActionResult> DownloadReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true,  "pdf");
-        }[HttpGet]
+        }
+
+        [HttpGet]
         public Task<IActionResult> ExcelReportsAsync(string ReCodigo, string ReNombre, string peTipo, string peAnio, string peNumero, bool Activo)
         {
             return GenerateReportAsync(ReCodigo, ReNombre, peTipo, peAnio, peNumero, Activo, true, "xml");

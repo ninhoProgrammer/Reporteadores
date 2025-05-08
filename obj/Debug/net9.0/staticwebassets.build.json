@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ogYKcLv1RTlwHHZyDfD5X8hh0G3bNDj7YlZMqs6Xb1w=",
+  "Hash": "x/nLBUR9mZV7Rtydy3GNHWcgxUE+Fhb55w8ODJp+NCA=",
   "Source": "Reporteadores",
   "BasePath": "_content/Reporteadores",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-m82hr3xaee.gz",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-2xuijmv6kq.gz",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint=m82hr3xaee}]?.js.gz",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint=2xuijmv6kq}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6g438yli4p",
-      "Integrity": "Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA=",
+      "Fingerprint": "gs5bc3o7uz",
+      "Integrity": "EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-dkr0qbw353.gz",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-wcyonahhzj.gz",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "Temp/ScreenshotsReporte#[.{fingerprint=dkr0qbw353}]?.xml.gz",
+      "RelativePath": "Temp/ScreenshotsReporte#[.{fingerprint=wcyonahhzj}]?.xml.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.xml",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f52h2lu6ht",
-      "Integrity": "IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I=",
+      "Fingerprint": "uh64v11tlg",
+      "Integrity": "HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.xml"
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-xt5nz88gai.gz",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "css/input.output#[.{fingerprint=xt5nz88gai}]?.css.gz",
+      "RelativePath": "css/input.output#[.{fingerprint=1h3efgxja7}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ab5frfuzt6",
-      "Integrity": "WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE=",
+      "Fingerprint": "eb3pjpy00z",
+      "Integrity": "9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css"
@@ -1501,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xt5nz88gai",
-      "Integrity": "RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA=",
+      "Fingerprint": "1h3efgxja7",
+      "Integrity": "FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\input.output.css"
@@ -2782,8 +2782,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m82hr3xaee",
-      "Integrity": "amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A=",
+      "Fingerprint": "2xuijmv6kq",
+      "Integrity": "BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
@@ -3034,8 +3034,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eo9wxawdo7",
-      "Integrity": "Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8=",
+      "Fingerprint": "jw74blidfh",
+      "Integrity": "/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Temp\\ScreenshotsReporte.pdf"
@@ -3055,8 +3055,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dkr0qbw353",
-      "Integrity": "c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=",
+      "Fingerprint": "wcyonahhzj",
+      "Integrity": "EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Temp\\ScreenshotsReporte.xml"
@@ -3362,13 +3362,13 @@
       ]
     },
     {
-      "Route": "css/input.output.css",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-xt5nz88gai.gz",
+      "Route": "css/input.output.1h3efgxja7.css",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000437445319"
+          "Quality": "0.000434593655"
         }
       ],
       "ResponseHeaders": [
@@ -3378,19 +3378,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2285"
+          "Value": "2300"
         },
         {
           "Name": "ETag",
-          "Value": "\"WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE=\""
+          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3406,18 +3406,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA=\""
+          "Value": "W/\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "1h3efgxja7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/input.output.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA="
+          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
         }
       ]
     },
     {
-      "Route": "css/input.output.css",
+      "Route": "css/input.output.1h3efgxja7.css",
       "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3427,7 +3435,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11235"
+          "Value": "11250"
         },
         {
           "Name": "Content-Type",
@@ -3435,121 +3443,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA=\""
+          "Value": "\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA="
-        }
-      ]
-    },
-    {
-      "Route": "css/input.output.css.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-xt5nz88gai.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE="
-        }
-      ]
-    },
-    {
-      "Route": "css/input.output.xt5nz88gai.css",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-xt5nz88gai.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000437445319"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2285"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xt5nz88gai"
+          "Value": "1h3efgxja7"
         },
         {
           "Name": "label",
@@ -3557,13 +3465,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA="
+          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
         }
       ]
     },
     {
-      "Route": "css/input.output.xt5nz88gai.css",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
+      "Route": "css/input.output.1h3efgxja7.css.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3572,7 +3480,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11235"
+          "Value": "2300"
         },
         {
           "Name": "Content-Type",
@@ -3580,56 +3488,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA=\""
+          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xt5nz88gai"
-        },
-        {
-          "Name": "label",
-          "Value": "css/input.output.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RSD1PW9TGfUXi4/ggLa9VwcKrBcyeYQgmvxw2LrN2eA="
-        }
-      ]
-    },
-    {
-      "Route": "css/input.output.xt5nz88gai.css.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-xt5nz88gai.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2285"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:57:47 GMT"
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3647,7 +3510,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xt5nz88gai"
+          "Value": "1h3efgxja7"
         },
         {
           "Name": "label",
@@ -3655,7 +3518,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WgCmZTnFVJCanPeLU35WPCd0D8UagC8H9hUP3aS3xLE="
+          "Value": "sha256-9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.output.css",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000434593655"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2300"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.output.css",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.output.css.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI="
         }
       ]
     },
@@ -19380,6 +19380,167 @@
       ]
     },
     {
+      "Route": "lib/jquery/dist/jquery.min.2xuijmv6kq.js",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-2xuijmv6kq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000468603561"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2133"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xuijmv6kq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.2xuijmv6kq.js",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xuijmv6kq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.2xuijmv6kq.js.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-2xuijmv6kq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xuijmv6kq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0="
+        }
+      ]
+    },
+    {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
       "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\f4ooixlyv0-5pze98is44.gz",
       "Selectors": [
@@ -19542,12 +19703,12 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-m82hr3xaee.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-2xuijmv6kq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000467945718"
+          "Quality": "0.000468603561"
         }
       ],
       "ResponseHeaders": [
@@ -19557,15 +19718,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2136"
+          "Value": "2133"
         },
         {
           "Name": "ETag",
-          "Value": "\"Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA=\""
+          "Value": "\"EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19585,13 +19746,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A=\""
+          "Value": "W/\"BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A="
+          "Value": "sha256-BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0="
         }
       ]
     },
@@ -19606,7 +19767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15956"
+          "Value": "15958"
         },
         {
           "Name": "Content-Type",
@@ -19614,11 +19775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A=\""
+          "Value": "\"BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19628,13 +19789,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A="
+          "Value": "sha256-BuhiHmE1Oz4iYvbgiCTxOXiEoKeJAvJAHj91lnhmUX0="
         }
       ]
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-m82hr3xaee.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-2xuijmv6kq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19643,7 +19804,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2136"
+          "Value": "2133"
         },
         {
           "Name": "Content-Type",
@@ -19651,11 +19812,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA=\""
+          "Value": "\"EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
+          "Value": "Wed, 07 May 2025 18:17:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19673,168 +19834,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.min.m82hr3xaee.js",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-m82hr3xaee.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000467945718"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2136"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m82hr3xaee"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.min.m82hr3xaee.js",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15956"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m82hr3xaee"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-amPqMptvk5fn0Hu/YmF0KpiQ5D2blhv+o/oX+XL9n6A="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.min.m82hr3xaee.js.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\1620syf7ze-m82hr3xaee.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 20:21:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m82hr3xaee"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rtldo2rOQHUmNBVOzQ8XVxnTep3JeNTWjzrnvCjqBZA="
+          "Value": "sha256-EKpC3AjGr/gZ8xm4/bFtdtbZXmFdhC3/VQ82NB/gVL0="
         }
       ]
     },
@@ -22682,7 +22682,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22735,7 +22735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22772,7 +22772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22819,7 +22819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22872,7 +22872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22909,7 +22909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22956,7 +22956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23017,7 +23017,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23062,7 +23062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23117,7 +23117,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23178,7 +23178,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23223,7 +23223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 22:36:42 GMT"
+          "Value": "Wed, 07 May 2025 18:29:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23552,168 +23552,7 @@
       ]
     },
     {
-      "Route": "Temp/ScreenshotsReporte.dkr0qbw353.xml",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-dkr0qbw353.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000711237553"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1405"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkr0qbw353"
-        },
-        {
-          "Name": "label",
-          "Value": "Temp/ScreenshotsReporte.xml"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ="
-        }
-      ]
-    },
-    {
-      "Route": "Temp/ScreenshotsReporte.dkr0qbw353.xml",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.xml",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5632"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkr0qbw353"
-        },
-        {
-          "Name": "label",
-          "Value": "Temp/ScreenshotsReporte.xml"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ="
-        }
-      ]
-    },
-    {
-      "Route": "Temp/ScreenshotsReporte.dkr0qbw353.xml.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-dkr0qbw353.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1405"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkr0qbw353"
-        },
-        {
-          "Name": "label",
-          "Value": "Temp/ScreenshotsReporte.xml.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I="
-        }
-      ]
-    },
-    {
-      "Route": "Temp/ScreenshotsReporte.eo9wxawdo7.pdf",
+      "Route": "Temp/ScreenshotsReporte.jw74blidfh.pdf",
       "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23723,7 +23562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "81641"
+          "Value": "82189"
         },
         {
           "Name": "Content-Type",
@@ -23731,11 +23570,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8=\""
+          "Value": "\"/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 18:59:15 GMT"
+          "Value": "Tue, 06 May 2025 23:58:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23745,7 +23584,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "eo9wxawdo7"
+          "Value": "jw74blidfh"
         },
         {
           "Name": "label",
@@ -23753,7 +23592,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8="
+          "Value": "sha256-/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU="
         }
       ]
     },
@@ -23768,7 +23607,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "81641"
+          "Value": "82189"
         },
         {
           "Name": "Content-Type",
@@ -23776,11 +23615,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8=\""
+          "Value": "\"/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 18:59:15 GMT"
+          "Value": "Tue, 06 May 2025 23:58:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23790,18 +23629,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ap4xu2o0UhHYKQCGc28a+qLdJjnrEEpZ106o018VA/8="
+          "Value": "sha256-/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU="
         }
       ]
     },
     {
-      "Route": "Temp/ScreenshotsReporte.xml",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-dkr0qbw353.gz",
+      "Route": "Temp/ScreenshotsReporte.wcyonahhzj.xml",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-wcyonahhzj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000711237553"
+          "Quality": "0.000710732054"
         }
       ],
       "ResponseHeaders": [
@@ -23811,15 +23650,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1405"
+          "Value": "1406"
         },
         {
           "Name": "ETag",
-          "Value": "\"IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I=\""
+          "Value": "\"HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcyonahhzj"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/ScreenshotsReporte.xml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/ScreenshotsReporte.wcyonahhzj.xml",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcyonahhzj"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/ScreenshotsReporte.xml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/ScreenshotsReporte.wcyonahhzj.xml.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-wcyonahhzj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcyonahhzj"
+        },
+        {
+          "Name": "label",
+          "Value": "Temp/ScreenshotsReporte.xml.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk="
+        }
+      ]
+    },
+    {
+      "Route": "Temp/ScreenshotsReporte.xml",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-wcyonahhzj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000710732054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1406"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23839,13 +23839,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=\""
+          "Value": "W/\"EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ="
+          "Value": "sha256-EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM="
         }
       ]
     },
@@ -23868,11 +23868,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ=\""
+          "Value": "\"EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23882,13 +23882,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c06SZIpsYuuwuyBhup32qKYmcfvLGv/6ohwkWnxCmvQ="
+          "Value": "sha256-EA0lsW3+gnbeM0yLTdyclgn4DgPxkUxpFHVVrLnc/EM="
         }
       ]
     },
     {
       "Route": "Temp/ScreenshotsReporte.xml.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-dkr0qbw353.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\rzn2z8o1km-wcyonahhzj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23897,7 +23897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1405"
+          "Value": "1406"
         },
         {
           "Name": "Content-Type",
@@ -23905,11 +23905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I=\""
+          "Value": "\"HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 19:01:19 GMT"
+          "Value": "Tue, 06 May 2025 23:50:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23927,7 +23927,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IzvN9jJkSsg80/aRFUYffMrBbgRfC7Om9PirKkPCs5I="
+          "Value": "sha256-HpP24BeTi0mFm/hbttxLMznv7L74+sLjQgJBdlkqUSk="
         }
       ]
     }

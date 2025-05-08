@@ -266,6 +266,7 @@ C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\scopedcss\Views\S
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\scopedcss\bundle\Reporteadores.styles.css
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\scopedcss\projectbundle\Reporteadores.bundle.scp.css
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\sm4n7bh7te-ofkv4yell3.gz
+C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\vtgcxuy0dh-1h3efgxja7.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\9xypn4kppf-orpvjtaadi.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\45ldr5rubg-edzm6dwtrx.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\39xrpgq42r-gjpu5qcvgq.gz
@@ -324,10 +325,11 @@ C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\flhj33
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\ku9x8ftp88-l1zq2mitth.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\ydtz3q0i8o-x0q3zqp4vz.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\ktmkiicjw1-7s2n0ol71w.gz
+C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\1620syf7ze-2xuijmv6kq.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\f4ooixlyv0-5pze98is44.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\tcrnt9xsl7-mlv21k5csn.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\6jmlotpkt1-5ipweew5fc.gz
-C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\rzn2z8o1km-dkr0qbw353.gz
+C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\rzn2z8o1km-wcyonahhzj.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\fg6w6iwfzf-u912apvygw.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\3c3a77pirl-u912apvygw.gz
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\staticwebassets.build.json
@@ -346,5 +348,3 @@ C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\refint\Reporteado
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\Reporteadores.pdb
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\Reporteadores.genruntimeconfig.cache
 C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\ref\Reporteadores.dll
-C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\1620syf7ze-m82hr3xaee.gz
-C:\Users\mario\Documents\GitHub\Reporteadores\obj\Debug\net9.0\compressed\vtgcxuy0dh-xt5nz88gai.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x/nLBUR9mZV7Rtydy3GNHWcgxUE+Fhb55w8ODJp+NCA=",
+  "Hash": "DwFLG+v/fBwTEYrIH8nfEZhOLE4glY6eESGgrl/HMjw=",
   "Source": "Reporteadores",
   "BasePath": "_content/Reporteadores",
   "Mode": "Default",
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "Identity": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-0ohd2z1ro3.gz",
       "SourceId": "Reporteadores",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Reporteadores",
-      "RelativePath": "css/input.output#[.{fingerprint=1h3efgxja7}]?.css.gz",
+      "RelativePath": "css/input.output#[.{fingerprint=0ohd2z1ro3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eb3pjpy00z",
-      "Integrity": "9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=",
+      "Fingerprint": "fy2kxndmek",
+      "Integrity": "9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css"
@@ -1501,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1h3efgxja7",
-      "Integrity": "FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=",
+      "Fingerprint": "0ohd2z1ro3",
+      "Integrity": "sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\input.output.css"
@@ -3034,8 +3034,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jw74blidfh",
-      "Integrity": "/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=",
+      "Fingerprint": "6awgscuac6",
+      "Integrity": "brMvALtC7vxG9NBxFEsR+RS9lut3qVfeSVfdac1zcOM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Temp\\ScreenshotsReporte.pdf"
@@ -3362,8 +3362,8 @@
       ]
     },
     {
-      "Route": "css/input.output.1h3efgxja7.css",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "Route": "css/input.output.0ohd2z1ro3.css",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-0ohd2z1ro3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3382,11 +3382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+          "Value": "\"9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3406,13 +3406,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+          "Value": "W/\"sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h3efgxja7"
+          "Value": "0ohd2z1ro3"
         },
         {
           "Name": "label",
@@ -3420,12 +3420,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+          "Value": "sha256-sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY="
         }
       ]
     },
     {
-      "Route": "css/input.output.1h3efgxja7.css",
+      "Route": "css/input.output.0ohd2z1ro3.css",
       "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\css\\input.output.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3443,11 +3443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+          "Value": "\"sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3457,7 +3457,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h3efgxja7"
+          "Value": "0ohd2z1ro3"
         },
         {
           "Name": "label",
@@ -3465,13 +3465,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+          "Value": "sha256-sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY="
         }
       ]
     },
     {
-      "Route": "css/input.output.1h3efgxja7.css.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "Route": "css/input.output.0ohd2z1ro3.css.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-0ohd2z1ro3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3488,11 +3488,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+          "Value": "\"9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3510,7 +3510,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h3efgxja7"
+          "Value": "0ohd2z1ro3"
         },
         {
           "Name": "label",
@@ -3518,13 +3518,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI="
+          "Value": "sha256-9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk="
         }
       ]
     },
     {
       "Route": "css/input.output.css",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-0ohd2z1ro3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3543,11 +3543,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+          "Value": "\"9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3567,13 +3567,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+          "Value": "W/\"sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+          "Value": "sha256-sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY="
         }
       ]
     },
@@ -3596,11 +3596,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk=\""
+          "Value": "\"sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3610,13 +3610,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FYi6ioVh6/AkoGYL+e3boGY6roK6d+JYAV8yjjpKUDk="
+          "Value": "sha256-sBgVxxEYytJmlIMAhwhdejjOFhguetYNVLVJVz54dDY="
         }
       ]
     },
     {
       "Route": "css/input.output.css.gz",
-      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-1h3efgxja7.gz",
+      "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\obj\\Debug\\net9.0\\compressed\\vtgcxuy0dh-0ohd2z1ro3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3633,11 +3633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI=\""
+          "Value": "\"9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 17:49:42 GMT"
+          "Value": "Tue, 20 May 2025 20:27:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3655,7 +3655,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9gtR/828X8mIBYTw5zNcsASnjUPO8iFZcupBUB8xOVI="
+          "Value": "sha256-9xhstcbA71grZQcDhWP5Ee88fj6K55NhBtRkoQFcukk="
         }
       ]
     },
@@ -23552,7 +23552,7 @@
       ]
     },
     {
-      "Route": "Temp/ScreenshotsReporte.jw74blidfh.pdf",
+      "Route": "Temp/ScreenshotsReporte.6awgscuac6.pdf",
       "AssetFile": "C:\\Users\\mario\\Documents\\GitHub\\Reporteadores\\wwwroot\\Temp\\ScreenshotsReporte.pdf",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23562,7 +23562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82189"
+          "Value": "82210"
         },
         {
           "Name": "Content-Type",
@@ -23570,11 +23570,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=\""
+          "Value": "\"brMvALtC7vxG9NBxFEsR+RS9lut3qVfeSVfdac1zcOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 23:58:59 GMT"
+          "Value": "Tue, 20 May 2025 20:39:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23584,7 +23584,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jw74blidfh"
+          "Value": "6awgscuac6"
         },
         {
           "Name": "label",
@@ -23592,7 +23592,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU="
+          "Value": "sha256-brMvALtC7vxG9NBxFEsR+RS9lut3qVfeSVfdac1zcOM="
         }
       ]
     },
@@ -23607,7 +23607,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82189"
+          "Value": "82210"
         },
         {
           "Name": "Content-Type",
@@ -23615,11 +23615,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU=\""
+          "Value": "\"brMvALtC7vxG9NBxFEsR+RS9lut3qVfeSVfdac1zcOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 23:58:59 GMT"
+          "Value": "Tue, 20 May 2025 20:39:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23629,7 +23629,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/T9op4HDPEStRC3v4EggOun4RlTtj25rZYL1CoM6JWU="
+          "Value": "sha256-brMvALtC7vxG9NBxFEsR+RS9lut3qVfeSVfdac1zcOM="
         }
       ]
     },

@@ -2,95 +2,158 @@
     ViewData["Title"] = "Nomina View";
     @model NominaViewModel
 }
+
 <section class="mt-20 flex flex-col items-center">
-    <div class="border-2 container rounded-lg bg-gray-500 p-4 text-white shadow-lg">
+    <div class="container border-2 rounded-lg bg-gray-500 p-4 text-white shadow-lg">
+
+        <!-- Título de Nómina -->
         <div class="mb-4 text-center">
-            <h1 class="text-xl font-semibold">Nómina: </h1>
-        </div>
-        <div class="mb-2 flex flex-col flex-wrap items-center lg:flex-row">
-            <section class="px-2">
-                <h3>Año</h3>
-                <input id="peAnio" class="flex-1 rounded border px-2 py-1 text-gray-600" value="@Model.PeYear" readonly>
-            </section>
-            <section class="px-2">
-                <h3>Tipo</h3>
-                <input id="peTipo" class="flex-1 rounded border px-2 py-1 text-gray-600" value="@Model.PeTipo" readonly>
-            </section>
-            <section class="px-2">
-                <h3>Número</h3>
-                <input id="teNumeroPeriodo" class="flex-1 rounded border px-2 py-1 text-gray-600" value="@Model.PeNumero" readonly>
-            </section>
+            <h1 class="text-xl font-semibold">Nómina:</h1>
         </div>
 
-        <div class="mb-2 justify-center rounded-lg border bg-gray-300 p-6 text-gray-600 shadow-md">
+        <!-- Encabezado: Año, Tipo, Número -->
+        <div class="mb-2 flex flex-col flex-wrap items-center lg:flex-row">
+            <div class="px-2">
+                <h3>Año</h3>
+                <input id="peAnio"
+                       class="flex-1 rounded border px-2 py-1 text-gray-600"
+                       value="@Model.PeYear"
+                       readonly>
+            </div>
+
+            <div class="px-2">
+                <h3>Tipo</h3>
+                <input id="peTipo"
+                       class="flex-1 rounded border px-2 py-1 text-gray-600"
+                       value="@Model.PeTipo"
+                       readonly>
+            </div>
+
+            <div class="px-2">
+                <h3>Número</h3>
+                <input id="teNumeroPeriodo"
+                       class="flex-1 rounded border px-2 py-1 text-gray-600"
+                       value="@Model.PeNumero"
+                       readonly>
+            </div>
+        </div>
+
+        <!-- Datos de la Nómina -->
+        <div class="mb-2 rounded-lg border bg-gray-300 p-6 text-gray-600 shadow-md">
+
+            <!-- Periodo y Asistencia -->
             <div class="flex w-full flex-wrap text-sm sm:flex-col lg:flex-row lg:text-lg">
                 <div class="flex flex-grow flex-col">
+
                     <div class="flex flex-grow flex-col py-2 lg:flex-row">
                         <div class="flex flex-grow">
                             <label class="flex-1 py-2 text-right">Periodo:</label>
-                            <input class="flex-1 rounded border px-2 py-1" name="periodoInicio" value="@Model.PeriodoInicio" readonly>
+                            <input class="flex-1 rounded border px-2 py-1"
+                                   name="periodoInicio"
+                                   value="@Model.PeriodoInicio"
+                                   readonly>
                         </div>
                         <div class="flex flex-grow">
                             <label class="flex-1 py-2 text-right">al:</label>
-                            <input class="flex-1 rounded border px-2 py-1" name="periodoFin" value="@Model.PeriodoFin" readonly>
+                            <input class="flex-1 rounded border px-2 py-1"
+                                   name="periodoFin"
+                                   value="@Model.PeriodoFin"
+                                   readonly>
                         </div>
                     </div>
+
                     <div class="flex flex-grow flex-col py-2 lg:flex-row">
                         <div class="flex flex-grow">
                             <label class="flex-1 py-2 text-right">Asistencia:</label>
-                            <input class="flex-1 rounded border px-2 py-1" name="asistenciaInicio" value="@Model.PeriodoInicio" readonly>
+                            <input class="flex-1 rounded border px-2 py-1"
+                                   name="asistenciaInicio"
+                                   value="@Model.PeriodoInicio"
+                                   readonly>
                         </div>
                         <div class="flex flex-grow">
                             <label class="flex-1 py-2 text-right">al:</label>
-                            <input class="flex-1 rounded border px-2 py-1" name="asistenciaFin" value="@Model.PeriodoFin" readonly>
+                            <input class="flex-1 rounded border px-2 py-1"
+                                   name="asistenciaFin"
+                                   value="@Model.PeriodoFin"
+                                   readonly>
                         </div>
                     </div>
                 </div>
+
+                <!-- Estado y Descripción -->
                 <div class="flex flex-grow flex-col">
                     <div class="flex lg:py-2">
                         <label class="flex-1 py-2 text-right">Estado:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="estado" value="@Model.Estado" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="estado"
+                               value="@Model.Estado"
+                               readonly>
                     </div>
                     <div class="flex lg:py-2">
                         <label class="flex-1 py-2 text-right">Descripción:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="descripcion" value="@Model.Descripcion" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="descripcion"
+                               value="@Model.Descripcion"
+                               readonly>
                     </div>
                 </div>
             </div>
 
+            <!-- Percepción / Deducción / Neto / Empleados -->
             <div class="flex w-full flex-grow flex-wrap py-2 text-sm sm:flex-col lg:flex-row lg:text-lg">
+
                 <div class="flex flex-grow flex-col lg:flex-row">
                     <div class="flex flex-grow lg:py-2">
                         <label class="flex-1 py-2 text-right">Percepción:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="percepcion" value="@Model.Percepcion" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="percepcion"
+                               value="@Model.Percepcion"
+                               readonly>
                     </div>
                     <div class="flex flex-grow lg:py-2">
                         <label class="flex-1 py-2 text-right">Deducción:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="deduccion" value="@Model.Deduccion" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="deduccion"
+                               value="@Model.Deduccion"
+                               readonly>
                     </div>
                 </div>
+
                 <div class="flex flex-grow flex-col lg:flex-row">
                     <div class="flex flex-grow lg:py-2">
                         <label class="flex-1 py-2 text-right">Neto:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="neto" value="@Model.Neto" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="neto"
+                               value="@Model.Neto"
+                               readonly>
                     </div>
                     <div class="flex flex-grow lg:py-2">
                         <label class="flex-1 py-2 text-right">Empleados:</label>
-                        <input class="flex-1 rounded border px-2 py-1" name="empleados" value="@Model.Empleados" readonly>
+                        <input class="flex-1 rounded border px-2 py-1"
+                               name="empleados"
+                               value="@Model.Empleados"
+                               readonly>
                     </div>
                 </div>
             </div>
 
-            <!-- Fecha -->
+            <!-- Fecha y Botones -->
             <div id="nominas" class="flex w-full flex-grow items-center space-x-2 text-sm sm:flex-col md:flex-row md:text-lg">
                 <div class="flex w-full flex-col items-center lg:flex-row">
                     <label class="flex-1 py-2 text-right">Fecha:</label>
-                    <input class="flex-1 rounded border px-2 py-1" name="fecha" value="@Model.Fecha" readonly>
+                    <input class="flex-1 rounded border px-2 py-1"
+                           name="fecha"
+                           value="@Model.Fecha"
+                           readonly>
                 </div>
-                <button class="download rounded bg-red-500 p-2 text-white"><img src="~/images/pdf-icon.webp" /></button>
-                <button class="excel rounded bg-green-500 p-2 text-white"><img src="~/images/excel-icon.webp" /></button>
+
+                <button class="download rounded bg-red-500 p-2 text-white">
+                    <img src="~/images/pdf-icon.webp" alt="PDF" />
+                </button>
+                <button class="excel rounded bg-green-500 p-2 text-white">
+                    <img src="~/images/excel-icon.webp" alt="Excel" />
+                </button>
             </div>
         </div>
     </div>
 </section>
-

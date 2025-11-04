@@ -5,10 +5,15 @@
 <section class="flex min-h-screen flex-col items-center justify-center text-white">
    
     <div class="space-y-4 text-center">
-        <h1 class="border-2 rounded-lg bg-gray-500 p-2 text-2xl lg:text-8xl"><strong>Bienvenido</strong></h1>
-        <h2 class="border-2 rounded-lg bg-gray-500 p-2 text-xl lg:text-4xl">@ViewData["Title"]</h2>
+        <h1 class="border-1 rounded-lg bg-gray-500 p-2 text-2xl lg:text-8xl"><strong>Bienvenido</strong></h1>
+        <h2 class="border-1 rounded-lg bg-gray-500 p-2 text-xl lg:text-4xl">@ViewData["Title"]</h2>
     </div>
     <div class="py-6 text-center">
-        <a class="border-2 rounded-lg bg-green-700 px-5 py-2 font-medium hover:bg-blue-500" asp-area="" asp-controller="Account" asp-action="Login">Iniciar</a>
+        <a asp-area=""
+           asp-controller="Account"
+           asp-action="Login" 
+           class="rounded-lg border-2 border-green-600 bg-green-700 px-8 py-3 font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-blue-600 hover:border-blue-600">
+           Iniciar
+        </a>
     </div>
 </section>

@@ -1,5 +1,11 @@
 /obj
 /bin
+/Debug
 /.vs
-.vs/Reporteadores/v17/.suo
 /node_modules
+obj/
+obj/Debug/net9.0/
+obj/
+obj/Debug/net9.0/Reporteadores.pdb
+/.vs/Reporteadores/v17/
+/bin/Debug

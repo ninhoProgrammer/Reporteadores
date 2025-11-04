@@ -3,40 +3,58 @@
     
 }
 
-<section class="mt-20 flex flex-col items-center">
-    <div class="border-2 container flex flex-col items-center rounded-lg bg-gray-500 p-5 text-white">
-    
-        <h1 class="text-center text-base lg:text-3xl">
-            <strong>Selecciona tus opciones</strong>
+<section class="mt-24 flex flex-col items-center px-4">
+    <div class="w-full max-w-3xl rounded-xl border-1 border-white bg-gray-500 p-6 text-white shadow-xl">
+
+        <!-- Título -->
+        <h1 class="text-center text-2xl lg:text-3xl font-extrabold mb-6">
+            Selecciona tus opciones
         </h1>
 
-        <div class="flex flex-col lg:flex-row">
-            <section class ="px-2">
-                <h3>Año</h3>
-                <select id="peAnio" class="w-32 rounded border border-blue-500 p-1 px-1 text-black">
+        <!-- Controles de selección -->
+        <div class="flex flex-col items-center gap-4 lg:flex-row lg:justify-center lg:gap-6">
+
+            <!-- Año -->
+            <div class="flex flex-col text-center">
+                <label class="mb-1 text-sm font-semibold lg:text-base" for="peAnio">Año</label>
+                <select id="peAnio"
+                        class="w-40 rounded-lg border border-blue-400 bg-white px-2 py-1 text-gray-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-400 transition-all duration-150">
                     <option value="">AÑO</option>
                     @foreach (var anio in ViewBag.PeAnio)
                     {
                         <option value="@anio">@anio</option>
                     }
                 </select>
-            </section>
-            <section class="px-2">
-                <h3>Tipo</h3>
-                <select id="peTipo" class="w-32 rounded border border-blue-500 p-1 px-1 text-black" disabled>
+            </div>
+
+            <!-- Tipo -->
+            <div class="flex flex-col text-center">
+                <label class="mb-1 text-sm font-semibold lg:text-base" for="peTipo">Tipo</label>
+                <select id="peTipo"
+                        class="w-40 rounded-lg border border-blue-400 bg-white px-2 py-1 text-gray-900 disabled:opacity-50 disabled:cursor-not-allowed focus:border-blue-500 focus:ring-2 focus:ring-blue-400 transition-all duration-150"
+                        disabled>
                     <option value="">TIPO</option>
                 </select>
-            </section>
-            <section class="px-2">
-                <h3>Número</h3>
-                <select id="teNumeroPeriodo" class="w-32 rounded border border-blue-500 p-1 px-1 text-black" disabled>
+            </div>
+
+            <!-- Número -->
+            <div class="flex flex-col text-center">
+                <label class="mb-1 text-sm font-semibold lg:text-base" for="teNumeroPeriodo">Número</label>
+                <select id="teNumeroPeriodo"
+                        class="w-40 rounded-lg border border-blue-400 bg-white px-2 py-1 text-gray-900 disabled:opacity-50 disabled:cursor-not-allowed focus:border-blue-500 focus:ring-2 focus:ring-blue-400 transition-all duration-150"
+                        disabled>
                     <option value="">NUMERO</option>
                 </select>
-            </section>
+            </div>
         </div>
-        <div id="nominas" class="px-2 py-2 text-center">
-            <button  class="nominas border-2 rounded-lg bg-green-700 px-5 py-2 font-medium hover:bg-blue-500" >Ver</button>
+
+        <!-- Botón -->
+        <div id="nominas" class="mt-6 text-center">
+            <button 
+                    class="nominas rounded-lg border-2 border-green-600 bg-green-700 px-8 py-2 font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-blue-600 hover:border-blue-600">
+                Ver
+            </button>
         </div>
+
     </div>
 </section>
-

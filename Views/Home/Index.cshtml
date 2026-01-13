@@ -33,6 +33,66 @@
                 Nómina
             </a>
         </div>
+    </div>
 
+    <div class="bg-white w-60 rounded-lg mt-12 text-blue-600 text-sm shadow-lg">
+        <div class="relative w-max">
+            <img class="w-60 h-36 object-cover overflow-hidden"
+                 src="@Url.Content("~/images/panel.webp")"
+                 alt="Perfil" />
+
+            <h1 class="absolute top-0 left-0 w-32 bg-white text-start font-bold p-1 z-10">
+                Reportador
+            </h1>
+        </div>
+
+        <div class="flex flex-col text-star gap-1 p-6">
+            <h1 class="font-semibold">
+                Reporte
+            </h1>
+            <div class="grid grid-cols-2 items-center">
+                <h1 class="text-start text-green-600">
+                    Conoce tus reportes aqui
+                </h1>
+                <a 
+                    asp-area=""
+                    asp-controller="Home"
+                    asp-action="Reporte"
+                    class="justify-self-end flex items-center justify-center w-8 h-8 md:[w-20 w-20] bg-blue-600 text-white rounded-full text-lg font-bold transition-all hover:bg-blue-900 hover:scale-110">
+                    →
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white w-60 rounded-lg mt-12 text-blue-600 text-sm shadow-lg">
+        <div class="relative w-max">
+            <img class="w-32 h-36 object-cover overflow-hidden rounded-t-lg"
+                 src="@Url.Content("~/images/panel.webp")"
+                 alt="Perfil" />
+
+            <h1 class="absolute top-0 left-0 bg-black text-white text-center rounded-tl-lg font-bold p-1 z-10">
+                Nomina
+            </h1>
+        </div>
+
+        <div class="flex flex-col text-star gap-1 p-6">
+            <h1 class="font-semibold">
+                Consulta tu nomina
+            </h1>
+            <div class="grid grid-cols-2 items-center">
+                <h1 class="text-start text-green-600">
+                    Consulta tu nomina aqui 
+                </h1>
+                <a asp-area=""
+                   asp-controller="Home"
+                   asp-action="Nomina"
+                   class="justify-self-end flex items-center justify-center w-8 h-8 md:[w-20 w-20] bg-blue-600 text-white rounded-full text-lg font-bold transition-all hover:bg-blue-900 hover:scale-110">
+                    →
+                </a>
+
+            </div>
+        </div>
     </div>
 </section>
